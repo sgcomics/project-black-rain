@@ -32,210 +32,6 @@ transform moveleft:
 transform moveslightleft:
     linear 0.5 xalign 0.3
 
-define yeongwon = Character('영원', image="yeongwon", color="#c8ffc8", show_two_window = True)
-define haneul = Character('하늘', image="haneul", color="#c8ffc8", show_two_window = True)
-define hanbyeol = Character('한별', image="hanbyeol", color="#c8ffc8", show_two_window = True)
-define hanseol = Character('한설', image="hanseol", color="#c8ffc8", show_two_window = True)
-define yeonwoo = Character('연우', image="yeonwoo", color="#c8ffc8", show_two_window = True)
-define principal = Character('원장', image="principal", color="#c8ffc8", show_two_window = True)
-define overwatch = Character('감시자', image="overwatch", color="#c8ffc8", show_two_window = True)
-define keibi = Character('경비원', color="#c8ffc8", show_two_window = True)
-define teacher = Character('선생님', image="teacher", color="#c8ffc8", show_two_window = True)
-define mstudent = Character('남학생', color="#c8ffc8", show_two_window = True)
-define fstudent = Character('여학생', color="#c8ffc8", show_two_window = True)
-define haneul2 = Character('??', color="#c8ffc8", show_two_window = True)
-define shonen = Character('소년', color="#c8ffc8", show_two_window = True)
-define shojo = Character('소녀', color="#c8ffc8", show_two_window = True)
-
-image fstudent idle = "extra/fstudent.png"
-image keibi idle = "extra/keibi.png"
-image mstudent idle = "extra/mstudent.png"
-image teacher idle = "extra/teacher.png"
-
-image hanbyeol fury = "hanbyeol/fury.png"
-image hanbyeol fury2 = "hanbyeol/fury2.png"
-image hanbyeol happy = "hanbyeol/happy.png"
-image hanbyeol happy2 = "hanbyeol/happy2.png"
-image hanbyeol idle = "hanbyeol/idle.png"
-image hanbyeol idle2 = "hanbyeol/idle2.png"
-image hanbyeol sad = "hanbyeol/sad.png"
-image hanbyeol sad2 = "hanbyeol/sad2.png"
-image hanbyeol serious = "hanbyeol/serious.png"
-image hanbyeol serious2 = "hanbyeol/serious2.png"
-image hanbyeol shock = "hanbyeol/shock.png"
-image hanbyeol shock2 = "hanbyeol/shock2.png"
-
-image haneul fury = "haneul/fury.png"
-image haneul happy = "haneul/happy.png"
-image haneul happy2 = "haneul/happy2.png"
-image haneul idle = "haneul/idle.png"
-image haneul sad = "haneul/sad.png"
-image haneul serious = "haneul/serious.png"
-image haneul shock = "haneul/shock.png"
-
-image haneullong fury = "haneullong/fury.png"
-image haneullong happy = "haneullong/happy.png"
-image haneullong happy2 = "haneullong/happy2.png"
-image haneullong idle = "haneullong/idle.png"
-image haneullong sad = "haneullong/sad.png"
-image haneullong serious = "haneullong/serious.png"
-image haneullong shock = "haneullong/shock.png"
-
-image hanseol happy = "hanseol/happy.png"
-image hanseol happy2 = "hanseol/happy2.png"
-image hanseol idle = "hanseol/idle.png"
-image hanseol idle2 = "hanseol/idle2.png"
-image hanseol sad = "hanseol/sad.png"
-image hanseol sad2 = "hanseol/sad2.png"
-image hanseol shock = "hanseol/shock.png"
-image hanseol shock2 = "hanseol/shock2.png"
-
-image overwatch devil = "overwatch/devil.png"
-image overwatch fury = "overwatch/fury.png"
-image overwatch idle = "overwatch/idle.png"
-image overwatch idle2 = "overwatch/idle2.png"
-
-image principal cry = "principal/cry.png"
-image principal cry2 = "principal/cry2.png"
-image principal happy = "principal/happy.png"
-image principal happy2 = "principal/happy2.png"
-image principal idle = "principal/idle.png"
-image principal idle2 = "principal/idle2.png"
-image principal sad = "principal/sad.png"
-image principal sad2 = "principal/sad2.png"
-image principal sentimental = "principal/sentimental.png"
-image principal sentimental2 = "principal/sentimental2.png"
-image principal shock = "principal/shock.png"
-image principal shock2 = "principal/shock2.png"
-
-image principalglass happy = "principalglass/happy.png"
-image principalglass happy2 = "principalglass/happy2.png"
-image principalglass idle = "principalglass/idle.png"
-image principalglass idle2 =  "principalglass/idle2.png"
-
-image yeonwoo happy = "yeonwoo/happy.png"
-image yeonwoo happy2 = "yeonwoo/happy2.png"
-image yeonwoo idle = "yeonwoo/idle.png"
-image yeonwoo idle2 = "yeonwoo/idle2.png"
-
-image yeongwon blush = "yeongwon/blush.png"
-image yeongwon blush2 = "yeongwon/blush2.png"
-image yeongwon fury = "yeongwon/fury.png"
-image yeongwon fury2 = "yeongwon/fury2.png"
-image yeongwon happy = "yeongwon/happy.png"
-image yeongwon happy2 = "yeongwon/happy2.png"
-image yeongwon idle = "yeongwon/idle.png"
-image yeongwon idle2 = "yeongwon/idle2.png"
-image yeongwon sad = "yeongwon/sad.png"
-image yeongwon sad2 = "yeongwon/sad2.png"
-image yeongwon serious = "yeongwon/serious.png"
-image yeongwon serious2 = "yeongwon/serious2.png"
-image yeongwon shock = "yeongwon/shock.png"
-image yeongwon shock2 = "yeongwon/shock2.png"
-
-#brightness adjust
-image fstudent idleb = im.MatrixColor("extra/fstudent.png",im.matrix.brightness(-0.2))
-image keibi idleb = im.MatrixColor("extra/keibi.png",im.matrix.brightness(-0.2))
-image mstudent idleb = im.MatrixColor("extra/mstudent.png",im.matrix.brightness(-0.2))
-image teacher idleb = im.MatrixColor("extra/teacher.png",im.matrix.brightness(-0.2))
-image hanbyeol furyb = im.MatrixColor("hanbyeol/fury.png",im.matrix.brightness(-0.2))
-image hanbyeol fury2b = im.MatrixColor("hanbyeol/fury2.png",im.matrix.brightness(-0.2))
-image hanbyeol happyb = im.MatrixColor("hanbyeol/happy.png",im.matrix.brightness(-0.2))
-image hanbyeol happy2b = im.MatrixColor("hanbyeol/happy2.png",im.matrix.brightness(-0.2))
-image hanbyeol idleb = im.MatrixColor("hanbyeol/idle.png",im.matrix.brightness(-0.2))
-image hanbyeol idle2b = im.MatrixColor("hanbyeol/idle2.png",im.matrix.brightness(-0.2))
-image hanbyeol sadb = im.MatrixColor("hanbyeol/sad.png",im.matrix.brightness(-0.2))
-image hanbyeol sad2b = im.MatrixColor("hanbyeol/sad2.png",im.matrix.brightness(-0.2))
-image hanbyeol seriousb = im.MatrixColor("hanbyeol/serious.png",im.matrix.brightness(-0.2))
-image hanbyeol serious2b = im.MatrixColor("hanbyeol/serious2.png",im.matrix.brightness(-0.2))
-image hanbyeol shockb = im.MatrixColor("hanbyeol/shock.png",im.matrix.brightness(-0.2))
-image hanbyeol shock2b = im.MatrixColor("hanbyeol/shock2.png",im.matrix.brightness(-0.2))
-image haneul furyb = im.MatrixColor("haneul/fury.png",im.matrix.brightness(-0.2))
-image haneul happyb = im.MatrixColor("haneul/happy.png",im.matrix.brightness(-0.2))
-image haneul happy2b = im.MatrixColor("haneul/happy2.png",im.matrix.brightness(-0.2))
-image haneul idleb = im.MatrixColor("haneul/idle.png",im.matrix.brightness(-0.2))
-image haneul sadb = im.MatrixColor("haneul/sad.png",im.matrix.brightness(-0.2))
-image haneul seriousb = im.MatrixColor("haneul/serious.png",im.matrix.brightness(-0.2))
-image haneul shockb = im.MatrixColor("haneul/shock.png",im.matrix.brightness(-0.2))
-image haneullong furyb = im.MatrixColor("haneullong/fury.png",im.matrix.brightness(-0.2))
-image haneullong happyb = im.MatrixColor("haneullong/happy.png",im.matrix.brightness(-0.2))
-image haneullong happy2b = im.MatrixColor("haneullong/happy2.png",im.matrix.brightness(-0.2))
-image haneullong idleb = im.MatrixColor("haneullong/idle.png",im.matrix.brightness(-0.2))
-image haneullong sadb = im.MatrixColor("haneullong/sad.png",im.matrix.brightness(-0.2))
-image haneullong seriousb = im.MatrixColor("haneullong/serious.png",im.matrix.brightness(-0.2))
-image haneullong shockb = im.MatrixColor("haneullong/shock.png",im.matrix.brightness(-0.2))
-image hanseol happyb = im.MatrixColor("hanseol/happy.png",im.matrix.brightness(-0.2))
-image hanseol happy2b = im.MatrixColor("hanseol/happy2.png",im.matrix.brightness(-0.2))
-image hanseol idleb = im.MatrixColor("hanseol/idle.png",im.matrix.brightness(-0.2))
-image hanseol idle2b = im.MatrixColor("hanseol/idle2.png",im.matrix.brightness(-0.2))
-image hanseol sadb = im.MatrixColor("hanseol/sad.png",im.matrix.brightness(-0.2))
-image hanseol sad2b = im.MatrixColor("hanseol/sad2.png",im.matrix.brightness(-0.2))
-image hanseol shockb = im.MatrixColor("hanseol/shock.png",im.matrix.brightness(-0.2))
-image hanseol shock2b = im.MatrixColor("hanseol/shock2.png",im.matrix.brightness(-0.2))
-image overwatch devilb = im.MatrixColor("overwatch/devil.png",im.matrix.brightness(-0.2))
-image overwatch furyb = im.MatrixColor("overwatch/fury.png",im.matrix.brightness(-0.2))
-image overwatch idleb = im.MatrixColor("overwatch/idle.png",im.matrix.brightness(-0.2))
-image overwatch idle2b = im.MatrixColor("overwatch/idle2.png",im.matrix.brightness(-0.2))
-image principal cryb = im.MatrixColor("principal/cry.png",im.matrix.brightness(-0.2))
-image principal cry2b = im.MatrixColor("principal/cry2.png",im.matrix.brightness(-0.2))
-image principal happyb = im.MatrixColor("principal/happy.png",im.matrix.brightness(-0.2))
-image principal happy2b = im.MatrixColor("principal/happy2.png",im.matrix.brightness(-0.2))
-image principal idleb = im.MatrixColor("principal/idle.png",im.matrix.brightness(-0.2))
-image principal idle2b = im.MatrixColor("principal/idle2.png",im.matrix.brightness(-0.2))
-image principal sadb = im.MatrixColor("principal/sad.png",im.matrix.brightness(-0.2))
-image principal sad2b = im.MatrixColor("principal/sad2.png",im.matrix.brightness(-0.2))
-image principal sentimentalb = im.MatrixColor("principal/sentimental.png",im.matrix.brightness(-0.2))
-image principal sentimental2b = im.MatrixColor("principal/sentimental2.png",im.matrix.brightness(-0.2))
-image principal shockb = im.MatrixColor("principal/shock.png",im.matrix.brightness(-0.2))
-image principal shock2b = im.MatrixColor("principal/shock2.png",im.matrix.brightness(-0.2))
-image principalglass happyb = im.MatrixColor("principalglass/happy.png",im.matrix.brightness(-0.2))
-image principalglass happy2b = im.MatrixColor("principalglass/happy2.png",im.matrix.brightness(-0.2))
-image principalglass idleb = im.MatrixColor("principalglass/idle.png",im.matrix.brightness(-0.2))
-image principalglass idle2b = im.MatrixColor("principalglass/idle2.png",im.matrix.brightness(-0.2))
-image yeonwoo happyb = im.MatrixColor("yeonwoo/happy.png",im.matrix.brightness(-0.2))
-image yeonwoo happy2b = im.MatrixColor("yeonwoo/happy2.png",im.matrix.brightness(-0.2))
-image yeonwoo idleb = im.MatrixColor("yeonwoo/idle.png",im.matrix.brightness(-0.2))
-image yeonwoo idle2b = im.MatrixColor("yeonwoo/idle2.png",im.matrix.brightness(-0.2))
-image yeongwon blushb = im.MatrixColor("yeongwon/blush.png",im.matrix.brightness(-0.2))
-image yeongwon blush2b = im.MatrixColor("yeongwon/blush2.png",im.matrix.brightness(-0.2))
-image yeongwon furyb = im.MatrixColor("yeongwon/fury.png",im.matrix.brightness(-0.2))
-image yeongwon fury2b = im.MatrixColor("yeongwon/fury2.png",im.matrix.brightness(-0.2))
-image yeongwon happyb = im.MatrixColor("yeongwon/happy.png",im.matrix.brightness(-0.2))
-image yeongwon happy2b = im.MatrixColor("yeongwon/happy2.png",im.matrix.brightness(-0.2))
-image yeongwon idleb = im.MatrixColor("yeongwon/idle.png",im.matrix.brightness(-0.2))
-image yeongwon idle2b = im.MatrixColor("yeongwon/idle2.png",im.matrix.brightness(-0.2))
-image yeongwon sadb = im.MatrixColor("yeongwon/sad.png",im.matrix.brightness(-0.2))
-image yeongwon sad2b = im.MatrixColor("yeongwon/sad2.png",im.matrix.brightness(-0.2))
-image yeongwon seriousb = im.MatrixColor("yeongwon/serious.png",im.matrix.brightness(-0.2))
-image yeongwon serious2b = im.MatrixColor("yeongwon/serious2.png",im.matrix.brightness(-0.2))
-image yeongwon shockb = im.MatrixColor("yeongwon/shock.png",im.matrix.brightness(-0.2))
-image yeongwon shock2b = im.MatrixColor("yeongwon/shock2.png",im.matrix.brightness(-0.2))
-
-#bg
-image bg classroom = "background/classroom.jpg"
-image bg hallway = "background/hallway.jpg"
-image bg hideout = "background/hideout.jpg"
-image bg lab = "background/lab.jpg"
-image bg oldschool = "background/oldschool.jpg"
-image bg school = "background/school.jpg"
-image bg sky = "background/sky.jpg"
-image bg stairs = "background/stairs.jpg"
-image bg what = "background/what.jpg"
-image bg what2 = "background/what2.jpg"
-
-image bg classroomb = im.MatrixColor("background/classroom.jpg",im.matrix.brightness(-0.2))
-image bg hallwayb = im.MatrixColor("background/hallway.jpg",im.matrix.brightness(-0.2))
-image bg hideoutb = im.MatrixColor("background/hideout.jpg",im.matrix.brightness(-0.2))
-image bg labb = im.MatrixColor("background/lab.jpg",im.matrix.brightness(-0.2))
-image bg schoolb = im.MatrixColor("background/school.jpg",im.matrix.brightness(-0.2))
-image bg oldschoolb = im.MatrixColor("background/oldschool.jpg",im.matrix.brightness(-0.2))
-image bg skyb = im.MatrixColor("background/sky.jpg",im.matrix.brightness(-0.2))
-image bg stairsb = im.MatrixColor("background/stairs.jpg",im.matrix.brightness(-0.2))
-image bg whatb = im.MatrixColor("background/what.jpg",im.matrix.brightness(-0.2))
-
-#ecg
-
-#start
 label scene300: 
     # play music "music/sentimental.mp3" fadeout 1
     scene bg blackscreen with Dissolve(1.0)
@@ -255,7 +51,7 @@ label scene300:
     "누군가가 움직이고 있다. "
     scene bg hallway with Dissolve(1.0)
     hanbyeol"지금 거기로 올라가면 너까지 위험해지는 거 알고 움직이는 거야?"
-        show hanbyeol fury with dissolve
+    show hanbyeol fury with dissolve
     "지금 당장 최상층으로 달려가려는 나를 붙잡은 것은 다름아닌 한별이였다."
     "눈 하나 깜짝하지 않고 가로막는 한별이를 보고 내가 가장 먼저 느낀 감정은 분노였다."
     yeongwon idle"그럼 어떻게 할 거야! 딴 애도 아니고 너 동생이라고, 정신차려!"
@@ -275,7 +71,7 @@ label scene301:
     "낡은 종이 조각으로부터 시작된 호기심의 댓가는 너무나 큰 것이였다. "
     "수수께끼의 길잡이가 무언가를 알려주지 않을까, 라고 생각한 내가 바보 같이 느껴졌다. "
     yeongwon"우리 선생님이 무언가를 숨기고 있는게 확실해."
-        show hanbyeol sad with dissolve
+    show hanbyeol sad with dissolve
     hanbyeol"또 그 이야기야? "
     "솔직히 아무것도 모르겠지만, 최대한 가능성을 열어보는 것이 어떨까. "
     hanbyeol idle"기억해봐, 원장이 위층으로 올라갔을 때, 우리 선생은 수업 중이였어. "
@@ -334,7 +130,7 @@ label scene303:
     "서서히 머릿속의 안개가 걷히고, 스스로를 다잡을 수 있었다. "
     "헝클어진 머리와 눈 밑까지 내려온 다크서클. "
     "약한 모습을 보여주기 싫어서일까, 얼굴을 붉히며 급히 자신을 정돈했다. "
-        show haneul serious with dissolve
+    show haneul serious with dissolve
     haneul "사실 계속 무서웠다고... 탈출한 사실이 들키면 어떻게 될까..하며.."
     "어두운 방 안의 탓인지 하늘이는 이전보다 더욱 창백해진 것 같다. "
     "하지만 몸 상태에 대해서는 걱정이 되지는 않는다. "
@@ -349,7 +145,7 @@ label scene303:
     "아아. 아직 하늘이는 아무것도 모른다."
     "억지로 힘든 것을 드러내고 있지 않거나..."
     yeongwon"한설이가 사라졌어."
-        show haneul serious
+    show haneul serious
     "어떻게 여기 온것인지, 물어보는 것을 건너뛴 채의 한 마디. "
     "내 입에서 대뜸 나온 말은 분명 하늘이에게는 청천벽력이겠지."
     yeongwon"실종되었다고..! 한설이가..."
@@ -398,7 +194,7 @@ label scene304:
     "이전에는 기숙사를 빠져나와 다른 곳으로 들어갈 시도를 누가 했으려나?"
     "하지만 하늘이의 키는 특별반의 잠겨있던 문을 열어버렸고..."
     "결국 하늘이의 시도에 의해 기숙사 입구로 들어갈 수 있게 되어, 맨 끝의 내 방 앞까지 올수 있었다는 것."
-        show haneul happy with dissolve
+    show haneul happy with dissolve
     haneul "...내가 너무 성급했던 걸지도 몰라.. 많이 놀라지 않았어?"
     yeongwon idle2"모험심은 인정해 줄게, 설마했지만 정말 깜짝 놀랐다구."
     yeongwon"그렇지만...오늘은 너무 위험한 것 같았어. 걸리면 어떡하려 했어?"
@@ -449,13 +245,13 @@ label scene305:
     "하지만 우산을 똑바로 들지 않으면 젖어 버리는걸."
     "한설이가 어디로 갔는지 찾아낼 수 있다면...."
     scene bg room with Dissolve(1.0)
-        show hanbyeol idle with dissolve
+    show hanbyeol idle with dissolve
     hanbyeol"이 기록이 작성된 위치와 장소, 내용을 보자면..."
     hanbyeol"만약 한설이가 최상층에 있다면, 결국 후보지는 여기 하나밖에 없네."
     "한별이의 능력에는 언제나 감탄을 금치 못한다. "
     yeongwon idle"후보지가 하나라면..."
     hanbyeol shock"이제는 행동에 옮길 때야."
-    scene bg roomb with Dissolve(1.0)        
+    scene bg roomb with Dissolve(1.0)    
     "하지만 어딘지 모르게, 무언가가 공중에 붕 떠있는 듯한 느낌을 받는다. "
     "머릿속에 있던 생각을 행동으로 옮기는 건 의외로 쉬울지도 모른다. "
     "그렇지만 무언가 주변의 공기가 나를 짓누르고 있다. "
@@ -464,7 +260,7 @@ label scene305:
     yeongwon serious"아직은 증거가 부족해. 이것만 보고 있다가는 아무 결과도 나오지 않는걸."
     yeongwon"지하실 왼쪽에 아직 보지 못한 자료들이 있었어."
     yeongwon"그때까지만 시간을 가지고...찾아보자"
-    scene bg roomb with Dissolve(1.0)        
+    scene bg roomb with Dissolve(1.0)    
     "마음이 약해진다. "
     "우산의 틈새로 비바람의 물방울이 새어 버리고 있다. "
     "마치 흔들다리의 줄이 끊어져, 보이지 않는 바닥으로 떨어져 버릴 것과 같은 느낌."
@@ -478,24 +274,24 @@ label scene305:
     hanbyeol happy2"잘 생각해 줘,"
     "의무감을 느낀다. "
     "그래. 스타트를 끊는 것은 언제나 내가 할 일이였어. "
-    scene bg blackscreen with Dissolve(1.0)        
-   "신중함은 내 전문 분야가 아닐 것이다. "
+    scene bg blackscreen with Dissolve(1.0)    
+    "신중함은 내 전문 분야가 아닐 것이다. "
     "그럴 것이다. 아마도. "
     "아마도라는 말은 불확실성에 대한 변치않는 보험일 것이다. "
     "확정된 미래를 내다보는 것이 불가능한 것은 정해져 있다. "
     "그래서일까, 시간은 우리들의 결정을 비웃듯 흘러간다. "
-    scene bg room2 with Dissolve(1.0)        
+    scene bg room2 with Dissolve(1.0)    
     yeongwon serious"......"
     "침대 머리맡을 등지고 바닥에 주저앉는다. "
     "시계 소리조차도 정적을 깨는 방. "
     "아무리 늦어버린 밤이라고 해도 나만을 제외하고 시간이 멈춰버린 것 같다.  "
     "이대로 정적에 스며들어 잠들어 버린다면 시간을 멈출 수 있을까. "
-    scene bg room2b with Dissolve(1.0)        
+    scene bg room2b with Dissolve(1.0)    
     "알고 있다. "
     "미룬다고 되는 일은 단 하나도 없는 것을. "
     "그러나 열쇠는 문고리에 맞지 않는다. "
     "달려나가는 우리들에게 닫힌 문은 웃어주지 않는다. "
-    scene bg room2 with Dissolve(1.0)        
+    scene bg room2 with Dissolve(1.0)    
     "침대 밑으로 무심코 손을 뻗는다. "
     "손에 잡힌 것은 낡은 일기장, 현 씨의 노트이다."
     "그러나 더이상 다 닳아버린 앞 페이지에는 눈이 가지 않는다. "
@@ -503,7 +299,7 @@ label scene305:
     "비가 거세게 내리친다면, 우산을 펼치는 것은 바로 우리들이 될 것이다."
     "뒷장의 무수한 빈 종이를 맞이하기 전, 최종일의 마지막 문장. "
     "어느 때보다 현실적이게 마음을 울린다. "
-    scene bg room2b with Dissolve(1.0)        
+    scene bg room2b with Dissolve(1.0)    
     "무섭다. "
     "내 일기장의 마지막 페이지는 언제일까. "
     "누군가가 내 일기장의 뒷면을 찢어가고 있지는 않을까. "
@@ -515,7 +311,7 @@ label scene305:
     "'아까는 네 기분을 몰라봤었네'"
     "문을 열면, 이 이야기를 하려고 했었다. "
     "하지만, 문이 열린 뒤 나는 아무 말도 할 수 없었다. "
-        show haneul happy with dissolve
+    show haneul happy with dissolve
     "......"
     "못 본지 아주 오래된 것은 아니였다. "
     "이야기를 한 지 불과 얼마 되지 않았던 느낌이다. "
@@ -526,8 +322,8 @@ label scene305:
     "내 기분을 아이러니하게도 너무 잘 알아준, 하늘이가 앞에 있다는 걸. "
 
 label scene306:
-    scene bg room2 with Dissolve(1.0)        
-        show haneul happy with dissolve
+    scene bg room2 with Dissolve(1.0)    
+    show haneul happy with dissolve
     haneul"이렇게 다시 보니... 영원이는 정말 많은 걸 해왔구나..."
     "막상 하늘이를 다시 만나게 되었지만 저번처럼 까무러칠듯 놀랍지는 않았다. "
     yeongwon idle2"이제야 내 업적을 인정하는 거야? 그거 참~"
@@ -562,7 +358,7 @@ label scene306:
     haneul"항상...고마워."
     yeongwon"으...응.."
     haneul"이건..그리고 그에 대한 내 마음이야. "
-        hide haneul with dissolve
+    hide haneul with dissolve
     "복잡하던 머릿속이 사고를 멈춘다. "
     "이건...무슨 상황인 거지?"
     "생각할 겨를도 없이, 하늘이는 내 손을 살며시 잡았다."
@@ -578,7 +374,7 @@ label scene306:
     "백색의 카드보드에 빛나는 은색의 칩. "
     "특별반의 랜덤 데이터를 사용한 하늘이의 걸작임이 분명하다. "
     "내 사진은 도대체 어디서 구한 거야."
-        show haneul sad with dissolve
+    show haneul sad with dissolve
     haneul"한설이도, 연우도.. 우리들 앞에서 사라져버려.. "
     haneul"너무나 그런 것들이 싫어서, 모두를 지켜내고 싶어서, "
     haneul"꼭, 5명이서 만날 수 있도록.. 마치 예전처럼. "
@@ -631,7 +427,7 @@ label scene306:
     "오늘만은 내 곁을 떠나지 말아줘. "
 
 label scene307: 
-    scene bg room2bright with Dissolve(1.0)        
+    scene bg room2bright with Dissolve(1.0)    
     yeongwon idle"..."
     "아침의 선명한 햇빛 한 줄이 나를 깨운다. "
     "어제 마지막으로 기억나는 게 무엇이었을까."
@@ -655,13 +451,13 @@ label scene307:
     "오늘은 정말로 오랫만에, 맛있는 아침을 먹을 수 있을 것 같아. "
 
 label scene308:
-    scene bg room with Dissolve(1.0)        
+    scene bg room with Dissolve(1.0)    
     yeongwon idle2"자, 그럼 여기서! 중대 발표가 있겠습니다. "
     yeongwon"한설이를 찾아나가는 모임 회장, 한별이에게 알려드립니다!"
     yeongwon"신기술의 도입으로 드디어, 단박에 올라갈 수 있는 경로가 마련되었습니다~"
     "한별이에게 등록된 카드를 건넨다. "
     "천천히 카드를 읽어보던 한별이, 이내 눈이 휘둥그레진다. "
-        show hanbyeol shock2 with dissolve
+    show hanbyeol shock2 with dissolve
     hanbyeol"이런 건...어디서 얻었어? 만들었어? "
     yeongwon"사실, 어제 하늘이가 기숙사로 들어와서~"
     yeongwon"나를 존경한다나...특수반 카드가 힘이 될거라고... 헤헤.."
@@ -678,28 +474,28 @@ label scene308:
     "한설이와 연우, 그리고 사랑하는 하늘이에게 축복을. "
 
 label scene309:
-    scene bg blackscreen with Dissolve(1.0)                
+    scene bg blackscreen with Dissolve(1.0)    
     "시간이란 건 참 빠르게 흘러간다. "
     "그 시간이 우리에게 소중하다고 생각할수록 말이다. "
     "멈추어 가던 내 시계는 다시 한번 빠르게 태엽을 감는다. "
     "모두를 되찾기 위한 둘도 없는 여정. "
-    scene bg room2 with Dissolve(1.0)        
+    scene bg room2 with Dissolve(1.0)    
     "드디어 내일, 작전의 때가 도래했다. "
     "증거는 완벽하고 연습은 충분하다. "
     "건물 구조와 행선지 경로를 몇 번이나 머릿속에 시뮬레이트 해 본다. "
     "그럼, 되었을까나.  "
     "보고서를 덮고, 붉은 손수건을 손에 맨다. "
-    scene bg skysunset with Dissolve(1.0)        
+    scene bg skysunset with Dissolve(1.0)    
     "늦가을의 오렌지색으로 물든 하늘을 바라보며 걷는다. "
     "오늘따라 차폐 우산으로부터 생긴, 반투명한 그림자가 더 옅어 보인다. "
     "따가운 햇빛은 바람을 타고 씻겨져가기라도 하는 것일까. "
     "그렇게 생각하는 도중에, 무심코 도착해 버렸다. "
-    scene bg oldschool with Dissolve(1.0)        
+    scene bg oldschool with Dissolve(1.0)    
     "우리 다섯 명의 추억과 의지가 잠든 곳. "
     "그리고, 마지막 벨이 울리는 저녁날의 약속장소.  "
     "언제나 작은 의자에 앉아, 책을 읽고 있던 하늘이를 떠올린다. "
     "그걸 다시 본다면, 이제야 우리의 일상을 되찾아가는 것인가는 생각이 들지도. "
-    scene bg ajit with Dissolve(1.0)        
+    scene bg ajit with Dissolve(1.0)    
     "아지트의 문을 열고 안을 들여다본다. "
     "그러나, 그 안은 어두컴컴한 채로 비어 있었다. "
     "아직 시간이 조금 빠르긴 하지. "
@@ -708,7 +504,7 @@ label scene309:
     "낡은 의자의 나무 끄트머리를 건드렸더니, 툭 하고 부러져 버렸다. "
     "오렌지색 하늘은 자취를 감추고, 감색 하늘만이 박명을 내고 있을 뿐. "
     "하지만 내가 보고 싶은 하늘은 어디로 간 걸까. "
-    scene bg skydark with Dissolve(1.0)        
+    scene bg skydark with Dissolve(1.0)    
     "30분, 한 시간..."
     "무언가 이상하다. "
     "잊어버리지는 않았을 터이다. "
@@ -718,7 +514,7 @@ label scene309:
     "아니면, 위장용 카드를 만들어 준 것이 걸렸다던가. "
     "한번 시작된 걱정은, 언제나 또다른 걱정을 낳는다. "
     "그러나 만들어진 불안감이 더 큰 초조함과 불편함을 낳는다면 큰 문제가 될 수 있다. "
-    scene bg ajit with Dissolve(1.0)        
+    scene bg ajit with Dissolve(1.0)    
     "머피의 효과라고 하던가. "
     "이런 생각은 하지 말자. "
     "초조함을 억지로 틀어막고 아지트의 불을 끈다. "
@@ -728,16 +524,16 @@ label scene309:
     "기숙사에 돌아가서 푹 쉬는게 좋겠다. "
 
 label scene310:
-    scene bg dorm with Dissolve(1.0)        
+    scene bg dorm with Dissolve(1.0)    
     "아직 한밤중은 아니였지만 해가 짧아진 탓일까. 기숙사는 더 어두워 보였다. "
     "경비원에게 들키지 않도록 살금살금 입구 쪽으로 향한다. "
     "그런데, 무언가 수상하다. "
     "못 보던 거대한 실루엣의 무언가가 기숙사 옆에 놓여 있었다. "
     "단지 밤이라 검게 보이는 것이 아닌, 무광의 칠흑색. "
     "마치 빨리 들어가라고 나를 압박하는 것 같다. "
-    scene bg blackscreen with Dissolve(1.0)                
+    scene bg blackscreen with Dissolve(1.0)    
     "안에 도착해서 쉽사리 어둠 속으로 스며들어, 올라가는 계단에 올라탄다. "
-    scene bg stairs with Dissolve(1.0)                
+    scene bg stairs with Dissolve(1.0)    
     "그 때, "
     "귀를 때리는 강렬한 파열음에, 황급히 몸을 숨긴다. "
     yeongwon shock"뭐, 뭐야..!"
@@ -748,16 +544,16 @@ label scene310:
     "밤의 기숙사에 이런 큰 사고가 일어난 적은 없었다. "
     "너무나 갑작스럽게 일어난 일이였다."
     "내 자신이 있었다는 걸 숨기기 위해, 황급히 층계참을 가로질러 복도로 향한다. "
-    scene bg stairsb with Dissolve(1.0)                
+    scene bg stairsb with Dissolve(1.0)    
     "그런데, "
     "하늘이는, 오늘 만나는 장소를 헷갈린 걸까? "
     "총소리가 들린다. "
     "숨이 제대로 삼켜지지 않는다. "
     "머리가 갑자기 뜨거워져, 죽을 기세로 계단을 뛰쳐올라간다. "
-    scene bg hallwaydorm with Dissolve(1.0)                
+    scene bg hallwaydorm with Dissolve(1.0)    
     "하늘이가 이곳에 왔다 갔을 수도 있어. "
     "아니면, 왔다가--"
-        show hanbyeol shock2 with dissolve
+    show hanbyeol shock2 with dissolve
     hanbyeol"영원! 어딜 간거야!"
     "모두가 우왕좌왕하고 있는 복도 사이로 한별이가 보인다. "
     yeongwon"하...하늘이는? 혹시 하늘이 봤어? "
@@ -765,7 +561,7 @@ label scene310:
     hanbyeol shock"그것보다 비상상황이라고, 곧 선생님들이 반장을 찾을 거야. "
     hanbyeol"네가 이탈을 한 걸 안다면, 일이 복잡해질 수도 있어..."
     "그래, 비상상황 행동강령을 일단 지키는 게 먼저야.."
-    scene bg hallwaydormb with Dissolve(1.0)                
+    scene bg hallwaydormb with Dissolve(1.0)    
     "모두들을 대피시키고, 선생님들과 이야기를 하는 사이에도 집중은 딴 데 쏠려 있었다. "
     "하늘이는 무사할까. "
     "오늘 하늘이는 왜 안 보였을까. "
@@ -773,7 +569,7 @@ label scene310:
     "미래의 결과는, 아무도 모른다. "
 
 label scene311:
-    scene bg blackscreen with Dissolve(1.0)                
+    scene bg blackscreen with Dissolve(1.0)    
     "결과부터 이야기하자면, 우리들의 작전은 수정이 불가피하였다. "
     "밤새도록 상황은 수습된 듯 하지만, 그에 따른 뒷조사가 이루어지는 듯 했다. "
     "소지품 검사, 사건 목격진술 등..."
@@ -784,17 +580,17 @@ label scene311:
     "아니, 그냥 내가 아직 무사한 것이 누군가로부터의 거짓말인지도 모른다. "
     scene bg hallway with Dissolve(1.0)
     yeongwon idle"그럼, 가볼게요 선생님. "
-        show teacher with dissolve
+    show teacher with dissolve
     teacher"그래, 지금 너무 분위기가 어수선하네."
     teacher"우리 반은 그래도 영원이 덕분에 덜 위축되는 것 같아. "
     teacher"항상 고마워, 영원아. "
-        hide teacher with dissolve
+    hide teacher with dissolve
     "그 이후로는 아무것도 일어나지 않았다. "
     "하지만 원래대로라면, 우리가 무언가를 일으켜야 했었다. "
     "그럴 작정이였다. "
     "하지만, 거짓말같게도 아무것도 할 수 없었다. "
     scene bg room with Dissolve(1.0)
-        show hanbyeol sad2 with dissolve                
+    show hanbyeol sad2 with dissolve    
     hanbyeol"벌써 초겨울이 다 되어가는데, 아무것도 할 수 없다니..."
     "한별이의 방에 들어가면, 창문을 바라보는 한별이만이 나를 맞이한다. "
     yeongwon serious"상황이 너무 좋지 않은걸..."
@@ -805,17 +601,17 @@ label scene311:
     "내가 달리는 만큼, 종착점은 더 멀어진다. "
     hanbyeol"오늘로 벌써 한달 가까이 밀려버렸어..."
     hanbyeol"정말 어떻게 해야 좋을까..."
-    scene bg roomb with Dissolve(1.0)                
+    scene bg roomb with Dissolve(1.0)    
     "위로를 해 주고 싶지만, 기운이 나지 않는다. "
     "내가 무슨 말을 한다고 해도, 쌓여 온 그리움과 아픔은 사라지지 않는 걸까. "
     "안경에 비친 한설이의 눈은, 약간 부어 있는 듯한 느낌이였다. "
-    scene bg room2b with Dissolve(1.0)                
+    scene bg room2b with Dissolve(1.0)    
     "마지막으로 발걸음이 무겁지 않을 때는 언제였을까. "
     "힘겹지 않고 스트레스 받지 않는 날이 왜 일상적이지 않다고 생각하게 되었을까. "
     "여느때와 같은 기숙사의 적막함은 이제 익숙해졌다. "
     "정적의 선율을 깨는 풀벌레 소리, 창가의 엷은 바람소리. "
     "전부 내 일상의 이레귤러적인 존재. "
-    scene bg blackscreen with Dissolve(1.0)                
+    scene bg blackscreen with Dissolve(1.0)    
     "침대에 누워 무의식적으로 눈을 감는다. "
     "하늘이에 대한 걱정, "
     "한설이에 대한 불안감. "
@@ -827,39 +623,39 @@ label scene311:
     "하늘이만을 보고싶은 것은, 제멋대로인 걸까."
  
 label scene312:
-    scene bg sky with Dissolve(1.0)                
+    scene bg sky with Dissolve(1.0)    
     "한별이는 요새 부쩍, 허공만을 바라볼 때가 잦다. "
     "물론 이전부터, 하늘을 초점 없이 바라보는 것은 내 쪽이 아니였을까. "
     "어지럽게 펼쳐진 종이들 가운데에, 우리는 말 없이 마주보고 앉아 있었다. "
     scene bg roomb with Dissolve(1.0)     
-        show hanbyeol sad with dissolve                                   
+    show hanbyeol sad with dissolve       
     hanbyeol"이제는 해야할 것 같아."
     hanbyeol"한설이...만나러 가야지..."
-        hide hanbyeol with dissolve                                   
+    hide hanbyeol with dissolve       
     "저물어가는 해는 우리들의 얼굴에 그림자를 드리운다. "
     "더이상 핑계를 댈 수는 없었다. "
     "지금이라도 실행에 옮길 수밖에 없었다. "
     "내가 하자고 했던 일이다. "
     "분명히 내가 이루어내야 할 일이다. "
-    scene bg background with Dissolve(1.0)                
+    scene bg background with Dissolve(1.0)    
     "어째서, 이렇게 되어버린 걸까. "
     "시간은 눈치없이 계속 흘러가지만, 우리에게 잡을 권한 따위는 없다. "
 
 label scene313:
-    scene bg hallwaydormb with Dissolve(1.0)                
+    scene bg hallwaydormb with Dissolve(1.0)    
     "푸르스름한 불빛조차 사라져버린 어두운 밤,"
     "정적만이 감도는 복도에 한 발짝, 엷은 발소리가 어둠 속에 숨는다. "
     "제대로 볼 수 있는 것은 없다. "
     "다만 한별이와 서로 의지하며 앞으로 나아갈 뿐."
     "왼쪽 복도의 끝에 붙어, 계단으로 내려갈 준비를 한다. "
     scene bg roomb with Dissolve(1.0)      
-        show hanbyeol idle with dissolve                                             
+    show hanbyeol idle with dissolve     
     hanbyeol"이 날, 바로 경비원 한 명이 비는 날이야. "
     hanbyeol"한 시간 동안은 교대할 인원이 줄어드니, 이쪽을 감시할 수 있을 리 없지. "
-        hide hanbyeol with dissolve                                   
-    scene bg hallwaydormb with Dissolve(1.0)                
+    hide hanbyeol with dissolve       
+    scene bg hallwaydormb with Dissolve(1.0)    
     "계단의 소등 시간을 틈타, 재빨리 숨어들어간다. "
-    scene bg stairs with Dissolve(1.0)                
+    scene bg stairs with Dissolve(1.0)    
     "이전과는 다른 환한 로비에 자동으로 몸이 움츠러든다. "
     "너무나 눈이 부시다. "
     "그러나 이 빛은 거짓을 만들기 위한 위선의 빛. "
@@ -867,37 +663,37 @@ label scene313:
     yeongwon idle"저쪽으로!"
     "정시가 약간 지난 지금, 인수인계가 되기 전의 잠깐의 틈. "
     "지금이야말로 진실을 위한 그림자가 숨어들어갈 때이다. "
-    scene bg dorm with Dissolve(1.0)                
+    scene bg dorm with Dissolve(1.0)    
     "계단의 문을 뒤쪽으로 밀고 나와, 평소와 반대 방향으로 돌아나간다. "
     "사각지대만을 밟고 지나간 우리는 곧바로 본관 쪽의 루트로 향할 수 있었다. "
-        show hanbyeol fury with dissolve                                   
+    show hanbyeol fury with dissolve       
     hanbyeol"......반드시.."
     hanbyeol"...반드시, 내가 구해낼 거야."
     "작게, 말소리가 들린 것 같았다. "
 
 label scene314:
-    scene bg schooldark with Dissolve(1.0)                
+    scene bg schooldark with Dissolve(1.0)    
     "매일 이곳으로 다니지만, 역시 어둠이란 것은 모든 것을 낮설게 만든다. "
     "머릿속의 지도를 다시 떠올려본다. "
     "제일 윗층의 교실, 교실과 원장실을 잇는 계단, 교실 주변의 사각지대. "
     "-인증 되었습니다, 보안 레벨 A-"
     "1층의 문이 열리며, 작전의 본격적인 시작을 알린다. "
-    scene bg hallwaydark with Dissolve(1.0)                
+    scene bg hallwaydark with Dissolve(1.0)    
     "맨 아랫층에서 저층을 올라가는 건 상대적으로 쉽다. "
     "뒷문으로 들어가면 바로 나오는 인적 없는 계단. "
     "2층으로 올라가는 것까지는 자유롭지만, 그 윗층부터의 길에는 철제 블라인드가 단단히 자물쇠에 걸려 있다. "
     scene bg roomb with Dissolve(1.0)
-        show hanbyeol idle with dissolve                                             
+    show hanbyeol idle with dissolve     
     hanbyeol "보통 사람들이 생각하듯이, 구식 자물쇠의 키는 일반적으로 그 주변의 어딘가에 숨겨져 있지. "
     hanbyeol"이 경우에는, 바로 이곳. "
     hanbyeol"사람의 심리는 단순하다고 생각하지 않아?"
-        hide hanbyeol with dissolve                                   
-    scene bg hallwaydark with Dissolve(1.0)                
+    hide hanbyeol with dissolve       
+    scene bg hallwaydark with Dissolve(1.0)    
     "미리 조사한 대로, 교무실 뒷문 옆 서류 보관함 뒤쪽을 살짝 열어본다. "
     "녹이 슬대로 슬어 있는 낡은 키가 보인다. "
     "조심스레 블라인드의 한쪽 구석을 연 뒤, 위로 살짝 들어 헤쳐나간다. "
     yeongwon"...영차..."
-        show hanbyeol idle with dissolve                                             
+    show hanbyeol idle with dissolve     
     hanbyeol sad"......"
     "한별이는 평상시보다도 더욱 안정된 모습인 듯 보였다. "
     "역시, 그녀를 여기까지 데리고 온 것은 불굴의 용기가 아닐까."
@@ -905,8 +701,8 @@ label scene314:
     "그렇다. 연기하고 있다. "
     hanbyeol"여기서는, 전에 말한 대로...기억하지? "
     yeongwon"자, 움직이자. "
-        hide hanbyeol with dissolve
-    scene bg blackscreen with Dissolve(1.0)                
+    hide hanbyeol with dissolve
+    scene bg blackscreen with Dissolve(1.0)    
     "계획은 수백번 다시 고쳐 그릴 수 있지만, 실행은 단 한번 뿐. "
     "교실이 있는 층의 제일 꼭대기 층으로 간다. "
     "가장 구석에 있는 것은--"
@@ -915,12 +711,12 @@ label scene314:
     "이래뵈어도 우리가 접근할 수 있는 시설 중, 가장 최첨단의 기술이 적용된 곳. "
     "이곳에서 데이터베이스 열람용의 관리자 카드를 꺼내기만 하면, 원장실의 모든 자료에 접근할 수 있다. "
     scene bg roomb with Dissolve(1.0)
-        show hanbyeol idle with dissolve                                                             
+    show hanbyeol idle with dissolve     
     hanbyeol"먼저, 내가 도서실이 있는 층의 전원을 완전히 꺼 버릴거야. "
     hanbyeol"아주 잠시나마, 서고의 잠금장치가 무력화되는 거지. "
     hanbyeol"그대로 네가 서고 안으로 들어가서, 관리자 카드를 꺼내오는 거야. "
     hanbyeol"그때는 네 카드를 믿을 수 밖에 없겠네. "
-        hide hanbyeol with dissolve                                   
+    hide hanbyeol with dissolve       
     scene bg hallway2dark with Dissolve(1.0)
     "도서실의 거대한 유리문 앞에 선다. "
     "한별이의 준비는, 아직이려나, "
@@ -960,7 +756,7 @@ label scene314:
     "데이터베이스 출입이 없어도, 자료를 수집할 수는 있을 것이다. "
     "이 일은 없던 것으로 하자. "
     "책의 산더미를 뒤로 하고, 서서히 뒷걸음질친다. "
-    scene bg blackscreen with Dissolve(1.0)                
+    scene bg blackscreen with Dissolve(1.0)    
     "도서관 옆의 전기실로 쏜살같이 움직인다. "
     "한별이와 만나, 최상층의 원장실로 올라가기만 하면 되는 것이다. "
     "그럴 것이였다. "
@@ -990,7 +786,7 @@ label scene314_0:
     "그럴 것이다. 아마도. "
     "만약 그 자리에 그대로 있었다면, 어떤 일이 일어났을 지. "
     "머릿속의 사고회로가 모조리 끊어진 것 같다. "
-        show hanbyeol shock2 with dissolve                                                             
+    show hanbyeol shock2 with dissolve     
     hanbyeol"하마터면 위험할 뻔 했어. "
     hanbyeol"관리자 카드는 가지고 왔어? "
     yeongwon"......"
@@ -1001,7 +797,7 @@ label scene314_0:
     hanbyeol"자, 이제 마지막만 남았어. "
     "한별이의 손가락이 비스듬한 위쪽을 가리킨다. "
     "칠흑과도 같은 어둠 속 여정의 끝이다. "
-        hide hanbyeol with dissolve                                   
+    hide hanbyeol with dissolve       
     "계단을 타고 바로 위쪽, 복도를 지나치면 바로 원장실. "
     "올라간다면 되돌릴 수 없다. "
     "나는, 한별이의 손을 잡고..."
@@ -1011,87 +807,87 @@ label scene314_0:
         "......":
             jump scene314_2
 
-    label scene314_1:
-        "그대로, 위로 한 발짝 내딛었다. "
-        "진실에 더욱 다가간다. "
-        "우리들의 추억을 모두 지키기 위해서. "
-        "원장이 마음대로 하게 두진 않을거야. "
-        "마지막 계단에 오르고, 문고리에 손을 올린다. "
-        "-인증 되었습니다, 보안 레벨 D-"
-        "문이 열리고, 처음 본 것은--"
+label scene314_1:
+    "그대로, 위로 한 발짝 내딛었다. "
+    "진실에 더욱 다가간다. "
+    "우리들의 추억을 모두 지키기 위해서. "
+    "원장이 마음대로 하게 두진 않을거야. "
+    "마지막 계단에 오르고, 문고리에 손을 올린다. "
+    "-인증 되었습니다, 보안 레벨 D-"
+    "문이 열리고, 처음 본 것은--"
     scene bg hallwaylight with Dissolve(1.0)
-        "빛이였다. "
-        "너무 많은 빛이 들어와 눈이 부시다. "
-            with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
-        "원장실 복도에 놓여진 수많은 조명들이, 한데 켜져 밝게 빛나고 있었다. "
-        "온몸이 부르르 떨린다. "
-        "원장실 가까이에 있는 한 줄기의 빛에 주목한다. "
-        "백색 파동이 일렁이며 진실을 교란시키는 걸까. "
-        "누군가의 그림자가 보인 듯 한 느낌이 들었다. "
-            with Fade(0.1, 0.1, 0.1, color="#FFFFFF")            
-        "눈을 깜빡이니, 그의 그림자는 감쪽같이 사라졌다. "
-        "푸른 빛 신호가 멀리서 깜빡이는 듯한 느낌이 들었다. "
-        "곧 사라질, 내 눈에만 보이는 환영인 걸까. "
-        "한 줄기의 빛이, 이쪽으로 와서 나를 비추는 듯 한 느낌이 들었다. "
-            with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
-        "마치 사진을 찍기 전 받는 스포트라이트. "
-        "하지만 나는 과연 피사체일까, 아니면 과녁일까. "
-        "다시 고개를 들고, 앞을 똑바로 본다. "
-            with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
-            with pause(1.0)
-            with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
+    "빛이였다. "
+    "너무 많은 빛이 들어와 눈이 부시다. "
+    with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
+    "원장실 복도에 놓여진 수많은 조명들이, 한데 켜져 밝게 빛나고 있었다. "
+    "온몸이 부르르 떨린다. "
+    "원장실 가까이에 있는 한 줄기의 빛에 주목한다. "
+    "백색 파동이 일렁이며 진실을 교란시키는 걸까. "
+    "누군가의 그림자가 보인 듯 한 느낌이 들었다. "
+    with Fade(0.1, 0.1, 0.1, color="#FFFFFF")    
+    "눈을 깜빡이니, 그의 그림자는 감쪽같이 사라졌다. "
+    "푸른 빛 신호가 멀리서 깜빡이는 듯한 느낌이 들었다. "
+    "곧 사라질, 내 눈에만 보이는 환영인 걸까. "
+    "한 줄기의 빛이, 이쪽으로 와서 나를 비추는 듯 한 느낌이 들었다. "
+    with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
+    "마치 사진을 찍기 전 받는 스포트라이트. "
+    "하지만 나는 과연 피사체일까, 아니면 과녁일까. "
+    "다시 고개를 들고, 앞을 똑바로 본다. "
+    with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
+    with pause(1.0)
+    with Fade(0.1, 0.1, 0.1, color="#FFFFFF")
     scene bg hallwaylight_dooropen with Dissolve(1.0)
-        "원장실의 문은, 활짝 열려 있었다. "
-        yeongwon shock"아아아아아악---!"
-        "앞으로 나아가지 못한 내 다리는, 그대로 180도 돌아--"
-        "정신을 차려보니, 한별이를 끌고 계단 밑으로 달리고 있었다. "
-        jump scene315
+    "원장실의 문은, 활짝 열려 있었다. "
+    yeongwon shock"아아아아아악---!"
+    "앞으로 나아가지 못한 내 다리는, 그대로 180도 돌아--"
+    "정신을 차려보니, 한별이를 끌고 계단 밑으로 달리고 있었다. "
+    jump scene315
     
-    label scene314_2:
-        yeongwon"......"
-        "그저, 잡고 있었던 것은 나를 위해서.  "
-        "살을 에는 공포심에 몸을 지탱할 수가 없다. "
-        "주변이 모두 검은 낭떠러지로 메워진 것 같은 느낌이다. "
-        "한 발짝을 내딛어 밟게 되는 종착점은 과연 어디인 걸까. "
-        "멀리서 엘리베이터가 지르는 괴성이 들린 듯 하였다. "
-        "내 상상이라고 해도 뭐든지 좋아.  "
-        "제발, 내 목을 죄진 말아줘. "
-            show hanbyeol shock2 with dissolve                                   
-        hanbyeol"영...원아.?"
-        yeongwon"......"
-        "마치 지탱할 곳을 잃은 나무토막처럼 균형을 잃는다. "
-        "아래를 향하는 고개. "
-        hanbyeol"뭐...하는 거야... 빨리 일어나..."
-        yeongwon"처음부터...미친 짓이였어..."
-        yeongwon"우리들이 고작 이 정도로 뭔가를 이뤄내자고 하다니, 착각도 정도가 있지... "
-        yeongwon"이제 우리도..."
-        yeongwon"한설이의... 뒤를 따라갈지-"
-        hanbyeol fury"개소리 하지마!!!"
-        "한순간에 일어난 일이였다. "
-        "목덜미에서 위로 잡아당기는 충격에 목이 매달린다.  "
-        scene bg jeon2 with Dissolve(1.0)
-        "이윽고 보이는 것은 위쪽에서 내려다보는 강렬한 초록 빛의 분노. "
-        hanbyeol"뭐라고, 뒤를 따라간다고? 그게 네가 할 소리야? "
-        hanbyeol"너가 여기서 잘한게 뭐가 있다고...!!"
-        hanbyeol"네가 계획을 세웠으면 끝까지 책임져야 될 거 아니야..."
-        hanbyeol"모두를 위한 자유? 세계를 위한 정의? 웃기지 말라고 해..!!!"
-        hanbyeol"하지도 못 할 일을 크게 벌려놓기나 하고, 한설이는 실종되기나 하고..."
-        hanbyeol"그래 놓고 위험하다고 내빼려고, 거짓말하고 도망가려고..."
-        "초록빛의 색은 점점 짙어지고 있었다. "
-        "밀려오는 위기감, 계획의 실패, 그리고 우리들의 우정의 산산조각."
-        "그것을 보는 난 정말 놀랍게도, 아무 말도 할 수 없었다. "
-        "오직 할 수 있는 것은, 고개를 돌리고 침묵하는 것일 뿐. "
-        hanbyeol"한설이는...희생당한 거야......그때...그때......가지만 않았더라면..."
-        hanbyeol"버려진 난, 어떻게 할건데..."
-        "파르르 떨리는 눈동자가, 이내 힘을 잃는다. "
-        "분노는 이내 슬픔으로 바뀌어, 한설이의 눈가를 적신다. "
-        "그 때였다. "
-        scene bg stairsdark with Dissolve(1.0)
-        "마치 괴수가 포효하는 듯한 소리를 내며, 발소리가 들린다. "
-        "귀로부터 공포가 엄습한다. "
-        "이렇게 큰 소리를 내며 싸웠는데, 누군가가 눈치채지 못하는 것이 이상하다. "
-        "우리들은 너나할 것 없이, 혼비백산하여 도망쳤다."
-        jump scene316
+label scene314_2:
+    yeongwon"......"
+    "그저, 잡고 있었던 것은 나를 위해서.  "
+    "살을 에는 공포심에 몸을 지탱할 수가 없다. "
+    "주변이 모두 검은 낭떠러지로 메워진 것 같은 느낌이다. "
+    "한 발짝을 내딛어 밟게 되는 종착점은 과연 어디인 걸까. "
+    "멀리서 엘리베이터가 지르는 괴성이 들린 듯 하였다. "
+    "내 상상이라고 해도 뭐든지 좋아.  "
+    "제발, 내 목을 죄진 말아줘. "
+    show hanbyeol shock2 with dissolve       
+    hanbyeol"영...원아.?"
+    yeongwon"......"
+    "마치 지탱할 곳을 잃은 나무토막처럼 균형을 잃는다. "
+    "아래를 향하는 고개. "
+    hanbyeol"뭐...하는 거야... 빨리 일어나..."
+    yeongwon"처음부터...미친 짓이였어..."
+    yeongwon"우리들이 고작 이 정도로 뭔가를 이뤄내자고 하다니, 착각도 정도가 있지... "
+    yeongwon"이제 우리도..."
+    yeongwon"한설이의... 뒤를 따라갈지-"
+    hanbyeol fury"개소리 하지마!!!"
+    "한순간에 일어난 일이였다. "
+    "목덜미에서 위로 잡아당기는 충격에 목이 매달린다.  "
+    scene bg jeon2 with Dissolve(1.0)
+    "이윽고 보이는 것은 위쪽에서 내려다보는 강렬한 초록 빛의 분노. "
+    hanbyeol"뭐라고, 뒤를 따라간다고? 그게 네가 할 소리야? "
+    hanbyeol"너가 여기서 잘한게 뭐가 있다고...!!"
+    hanbyeol"네가 계획을 세웠으면 끝까지 책임져야 될 거 아니야..."
+    hanbyeol"모두를 위한 자유? 세계를 위한 정의? 웃기지 말라고 해..!!!"
+    hanbyeol"하지도 못 할 일을 크게 벌려놓기나 하고, 한설이는 실종되기나 하고..."
+    hanbyeol"그래 놓고 위험하다고 내빼려고, 거짓말하고 도망가려고..."
+    "초록빛의 색은 점점 짙어지고 있었다. "
+    "밀려오는 위기감, 계획의 실패, 그리고 우리들의 우정의 산산조각."
+    "그것을 보는 난 정말 놀랍게도, 아무 말도 할 수 없었다. "
+    "오직 할 수 있는 것은, 고개를 돌리고 침묵하는 것일 뿐. "
+    hanbyeol"한설이는...희생당한 거야......그때...그때......가지만 않았더라면..."
+    hanbyeol"버려진 난, 어떻게 할건데..."
+    "파르르 떨리는 눈동자가, 이내 힘을 잃는다. "
+    "분노는 이내 슬픔으로 바뀌어, 한설이의 눈가를 적신다. "
+    "그 때였다. "
+    scene bg stairsdark with Dissolve(1.0)
+    "마치 괴수가 포효하는 듯한 소리를 내며, 발소리가 들린다. "
+    "귀로부터 공포가 엄습한다. "
+    "이렇게 큰 소리를 내며 싸웠는데, 누군가가 눈치채지 못하는 것이 이상하다. "
+    "우리들은 너나할 것 없이, 혼비백산하여 도망쳤다."
+    jump scene316
 
 label scene315:
     scene bg stairsdark with Dissolve(1.0)
@@ -1099,7 +895,7 @@ label scene315:
     "이 결과가 어떨지 나는 알 수 없다. "
     "하지만, 나는 노려지고 있다. "
     "이건 확실하다. "
-        show hanbyeol shock with dissolve                                   
+    show hanbyeol shock with dissolve       
     hanbyeol"뭐 하는거야!! 갑자기 왜 도망친 거야..."
     yeongwon shock"저...저기를 어떻게 가라는 거야!"
     "불규칙한 숨을 내뱉으며 힘겹게 이야기한다. "
@@ -1169,7 +965,7 @@ label scene316:
     "확신에 찬 나는, 가까워진 발소리의 사람을 본다. "
     "그러나, 나랑 시야가 맞은 사람은-"
     "뜬금없게도, 한설이네 반 담임선생님이였다. "
-        show overwatch fury with dissolve                                   
+    show overwatch fury with dissolve       
     overwatch"어? 너 누구니?"
     overwatch"혹시 2반 반장 아니니? 왜 이런 곳에 있어? "
     "어둠 속에서 모습을 드러내는 나를 보고, 손전등을 비춘다. "
@@ -1219,8 +1015,8 @@ label scene317:
     "그림자는 순식간에 심장을 움켜쥐어 모든 것을 얽맨다. "
     "숨을 쉬기가 힘들다. "
     "마음 속에서 말소리가 들린다. "
-    "\"한설이는 죽었어.\"\" 
-    "\"나 때문에.\"\" 
+    "\"한설이는 죽었어.\"" 
+    "\"나 때문에.\""
     "..."
     "누구세요?"
     with Fade(3, color="#666666")
@@ -1322,13 +1118,13 @@ label scene319:
     "급히 몸을 숨기고 창문을 주시한다. "
     "얼마 안되는 빛을 머금은 은빛 머리칼의 소년, "
     "그리고 그보다 반 발짝 앞서 걷는, 기분나쁠 정도로 순백의 긴 가운을 입은 여자. "
-        show principal idleb at right with dissolve
-        show haneul sadb at left with dissolve
+    show principal idleb at right with dissolve
+    show haneul sadb at left with dissolve
     "하늘과, 원장이다. "
     "왜 저 두사람이 여기에, 라고 생각하기 전에 자동반사적으로 손끝이 파르르 떨린다. "
     "하늘이가 안전하다는 안도감의 몇십 배, 원장으로부터의 공포심이 분위기를 압도한다. "
-        hide principal with dissolve
-        hide haneul with dissolve                                                                      
+    hide principal with dissolve
+    hide haneul with dissolve      
     "동요하고 있다."
     "긴장하지 마, 영원. 자주 있던 일이잖아. "
     "잠시를 고민하던 나는-"
@@ -1336,7 +1132,7 @@ label scene319:
     "지금 나간다면 더욱 수상하게 보일 뿐이다. "
     "가만히 숨을 죽이고 귀를 기울인다. "
     "이러한 상황을 두려워하였지만, 막상 상황에 맞닥들이니 마음이 이상하게만치 편안해졌다. "
-        show principal idle with dissolve                                   
+    show principal idle with dissolve       
     principal"이제 마지막 단계만 남았구나, 하늘아. "
     principal"오늘이 무사히 지나간다면, 우리들의 세계는 큰 도약을 맺을 수 있겠지."
     principal"지금까지 수고했어. "
@@ -1346,7 +1142,7 @@ label scene319:
     principal"여기에 와보는 건 처음이지? "
     principal"별 것 없어. 그냥 예전에 쓰던 교실이였을 뿐이니까. "
     "터벅터벅 발소리가 조용한 구교사를 울린다. "
-        hide principal with dissolve                                   
+    hide principal with dissolve       
     "발소리는 점점 멀어지며, 이내 문의 자물쇠를 푸는 소리가 들린다."
     "숨 죽인채 상황을 지켜보는 나를 뒤로하고 문은 열린다. "
     "저게 움직이는 것을 본 건 지금이 처음이다. "
@@ -1364,7 +1160,7 @@ label scene319:
     with Fade(3, color="#666666")
 
 label scene320:
-    scene bg blackscreen with Dissolve(1.0)         
+    scene bg blackscreen with Dissolve(1.0)     
     "계단은 꽤나 아래쪽까지 이어져 있었다. "
     "제대로 먹지도 걸어다니지도 않은 탓에 몇 번이나 허공에 발을 디딜 뻔 했다. "
     scene bg hallwaydark with Dissolve(1.0) 
@@ -1373,11 +1169,11 @@ label scene320:
     principal happy"겁 먹을 필요는 없어, 지금까지 많은 시련을 이겨냈잖아?"
     principal"오래 걸리지는 않을 거야.."
     "이런 곳에 최신식 생체인증 시스템이라니, 역시 수상하다. "
-        hide principal with dissolve                                   
+    hide principal with dissolve       
     "철문은 눈이 부실때까지 열리고, 천천히 닫힌다. "
     "문의 틈새로 발을 내딛는다. "
     with Fade(3, color="#FFFFFF")
-    scene bg lab with Dissolve(1.0)         
+    scene bg lab with Dissolve(1.0)     
     "그리고, 깨닫는다. "
     "이곳에 들어온 것이 사활을 건 모험이였다는 것을. "
     "괴리적일만큼 미래적인 공간이 시야를 감싼다. "
@@ -1386,8 +1182,8 @@ label scene320:
     "빛이 덜 드는 곳을 찾아 숨을 돌린다. "
     "이런 곳이 있다는 것, 여기서 무엇을 한다는 것 자체가 상식을 뛰어넘는 아이러니가 아닌가. "
     "정갈한 철재 뒤에 커다란 박스와 장비들이 숨겨져 있다. "
-        show principal idleb at right with dissolve
-        show haneul sadb at left with dissolve
+    show principal idleb at right with dissolve
+    show haneul sadb at left with dissolve
     principal"여기서 몇 개의 문장을 소리내서 읽을 거야, "
     principal"저번에 했던 실험이랑 큰 차이는 없지만 내용이 약간 다를 테니까. "
     principal"자세한 건 이 안쪽에 쓰여진 걸 참고하렴, 그럼."
@@ -1395,11 +1191,11 @@ label scene320:
     "모두들을 가두어놓고 저런 정신병자 같은 실험이나 하고 있는걸까?"
     "하늘이는 원장이 있는 곳으로, 한 발짝 더 다가간다. "
     "장비와 박스 때문에 잘 보이지 않는다. "
-        hide principal with dissolve  
-        hide haneul with dissolve                                 
+    hide principal with dissolve  
+    hide haneul with dissolve     
     "그러나 하늘이는 투명한 유리상자 안에 들어가 완전히 시야 밖을 벗어났다. "
     "이윽고 내 초점이 방해하는 물건들로 맞추어졌다. "
-    scene bg labb with Dissolve(1.0)         
+    scene bg labb with Dissolve(1.0)     
     "반투명의 플라스틱 상자에 담긴 수많은 주사기들. "
     "포화 산화수소 용액..?"
     "U-235...차폐막 무력화용...?"
@@ -1407,30 +1203,30 @@ label scene320:
     "원장의 테이블에 있는 것은, 같은 모양의 상자들. "
     "커다란 쇳덩이가 검은색의 벽을 이루고 투명한 주사기가 푸른 빛을 내뿜는다. "
     scene bg lab with Dissolve(1.0)
-        show principal idleb with dissolve         
+    show principal idleb with dissolve     
     principal"그럼 첫번째 데이터 분석을 시작할게, 하늘. "
     "보통 위험한 곳이 아닌 것 같다. "
     "여기서 하늘이를 지킨다던가 살린다던가 하는게 가능한 것일까. "
     principal happy2"그리고, 그 전에..."
-        hide principal with dissolve
+    hide principal with dissolve
     "아, 꺼졌다.  "
     "이것도 실험인 걸까. "
     "뭐가 잘못된 걸까. "
     "기분 나쁜 정적이다. "
     "기분 나쁜 정적이 깨진다. "
     with pause(2.0)
-        show principal happy2
+    show principal happy2
     principal"우리 반장 친구, 왜 여기 있을까?"
     "불이 켜진다. "
     "뭐가 잘못된 걸까."
     "아아, 자포자기다--"
-        hide principal with dissolve
+    hide principal with dissolve
     "선반 쪽을 돌아 문 쪽으로 달린다. "
     "거리로 생각하면 내가 더 가까워...!"
     "라고 생각하던 순간. "
     "털썩, 하고 다리에 힘이 빠졌다. "
     with vpunch
-        show principal happy2 with dissolve
+    show principal happy2 with dissolve
     principal"컨디션 불량이라더니, 이런 데는 어떻게 온 거야?"
     "흰 가운의 그림자가 점점 나를 앗아간다. "
     "위에서 올려다보는 그녀의 모습은 마치 죽음의 천사."
@@ -1471,20 +1267,20 @@ label scene320:
     yeongwon"연 씨."
 
 label scene321:
-    scene bg sky with Dissolve(1.0)         
+    scene bg sky with Dissolve(1.0)     
     "이 이야기는, 한 소년과 소녀의 이야기. "
     "소녀는 언제나 몸이 약해, 언제나 방 안에 갇혀 있었다. "
     "그러나, 그 소녀에게 한 소년이 찾아왔다. "
     "소년이 동경한 것은 바깥 세계. "
     "소년은 소녀를 이끌고, 밖의 세계를 탐험했다. "
-    scene bg oldschool with Dissolve(1.0)         
+    scene bg oldschool with Dissolve(1.0)     
     shonen"어때, 밖으로 나오니 좋지? "
     shojo"우와..."
     shojo"모든 게 다 신기해..."
     shonen"내가 나중에 더 자란다면..."
     shonen"저 유리창 밖을 나가, 뛰어다니고 싶은걸."
     shojo"정말 대단해...!"
-    scene bg sky with Dissolve(1.0)         
+    scene bg sky with Dissolve(1.0)     
     "그러나 소녀는 소년 없이는, 밖에 나갈 수 없었다. "
     "그 대신 소녀가 가까이 한 것은, 책이였다. "
     "말과 문장이 겹쳐지며 방 안에서도 광활한 밖을 그려내는 마법. "
@@ -1493,7 +1289,7 @@ label scene321:
     "그러나 어른들은 그들에게 뛰어놀 공간을 주지 않았다. "
     "시간이 지나 강제적으로 떨어지게 된 그들. "
     "그러나 바깥을 동경하는 소년소녀는, 언제나 새장에 만족하지 않는다. "
-    scene bg jeon3_1 with Dissolve(1.0)         
+    scene bg jeon3_1 with Dissolve(1.0)     
     "어른의 눈을 피해, 그들은 계속 함께한다. "
     "소녀가 들고 온 책을 읽거나, 소년을 같이 따라다니는 일상의 연속."
     "그러나 그 일상은 오래 지속될 수 없었다. "
@@ -1518,7 +1314,7 @@ label scene321:
     "방해하는 것을 생각해내고, 하고 싶은 걸 적어나가자. "
     "책을 쓴다면, 우리가 원하는 걸 얻을 수 있을 거야. "
     shojo"마치, 우산을 쓰면, 햇볕을 막을 수 있듯이. "
-    scene bg sky with Dissolve(1.0)         
+    scene bg sky with Dissolve(1.0)     
     "그렇게, 소년의 첫 책은 희망차게 시작을 알렸다. "
     "우리들만의 자유의 상징. 우산과 함께. "
     shonen"아, 여기에 네 이름을 바로 적는 건 좀 그렇지 않아? "
@@ -1529,29 +1325,29 @@ label scene321:
     shojo"지금은... 말이지."
 
 label scene322:
-    scene bg blackscreen with Dissolve(1.0)         
+    scene bg blackscreen with Dissolve(1.0)     
     "그 이후, 거짓말같이 일이 흘러가기 시작했다. "
     "나는 아무런 처벌이나 징계를 받지 않고, 바로 구교사로부터 기숙사로 보내졌다. "
     "물론, 구교사에서 보았던 모든 것들에 대해 아무에게도 말하지 않는 조건이 붙었다. "
     "하늘이의 안전을 걸고, 약속했다. "
     "그 전에 대담하게도, 내 쪽에서도 한 가지 조건을 걸었다. "
-    scene bg labb with Dissolve(1.0)         
+    scene bg labb with Dissolve(1.0)     
     yeongwon serious"한설이가 어디 갔는지, 지금은 무엇을 하고 있는지..."
     yeongwon"확실하게 듣고 싶습니다."
     "한설이에 관해서는, 제대로 이야기를 들을 수 있도록. "
     yeongwon"또... 한별이에게 이 사실을 제대로 알려줬으면, 좋겠습니다. "
     "그리고 누구보다도 진실을 알고 싶은 사람에게, 잘 전달될 수 있도록."
-        show principal sentimental2 with dissolve
+    show principal sentimental2 with dissolve
     principal"안 그래도 이렇게 된 이상, 내 쪽에서 부르려고 했는데 말이야. "
     principal"같이 온다면, 상관없겠지. "
-    scene bg skydark with Dissolve(1.0)         
+    scene bg skydark with Dissolve(1.0)     
     "기한은 단 하루. "
     "길고도 긴 오늘에도 벌써 짙은 어둠이 깔렸다. "
     "그날 이후, 한설이와 대화는 커녕 얼굴을 본적조차 없었다. "
     "내가 무단 결석을 해서 걱정해주고 있을까?"
     "아니면 오히려 겁쟁이같이 기숙사에 숨어 있는 나에게, 더욱 분노하고 있는 것은 아닐까. "
     "이제 곧 시간이 다가온다. "
-    scene bg hallwaydormb with Dissolve(1.0)         
+    scene bg hallwaydormb with Dissolve(1.0)     
     "한별이의 기숙사 방문쪽으로, 서서히 다가간다. "
     "내가 아는 한별이가 맞다면, 지금 그녀는 방 안에 없다. "
     "항상 이 시간에 기숙사의 어딘가로 사라져 버리는 건 왜일까. "
@@ -1572,7 +1368,7 @@ label scene322:
     "한별이는 동요하지 않고, 나를 무시해 지나치려고 하는 것 같다. "
     yeongwon"네가 꼭 들어줬으면 하는 이야기가...있어."
     yeongwon"한설이가, 어디에 있는지..."
-        show hanbyeol fury with dissolve
+    show hanbyeol fury with dissolve
     hanbyeol"그 이름..."
     hanbyeol"함부로 부르지 마..."
     "감히 눈을 마주칠 수가 없다. "
@@ -1585,11 +1381,11 @@ label scene322:
     "조용히, 우리들을 간직한 문이 다시 열렸다. "
 
 label scene323:
-    scene bg roomb with Dissolve(1.0)         
+    scene bg roomb with Dissolve(1.0)     
     "한별이의 방은, 여러모로 많이 달라져 있었다. "
     "정리정돈을 깔끔하게 하는 한별이라고는 생각할 수 없을 정도로, "
     "이전보다 방이 아주 더러워져 있었다. "
-        show hanbyeol sad with dissolve
+    show hanbyeol sad with dissolve
     hanbyeol"다시 한번만 이야기해 줄래."
     hanbyeol"한설이에 관한, 그 내용. "
     "창문을 향하고 있던 한별이의 몸이, 곧 정면으로 나와 마주본다. "
@@ -1599,7 +1395,7 @@ label scene323:
     yeongwon sad"원장이 우리한테 한설이에 대해 이야기해주려고 한대. "
     yeongwon"너도 꼭 들어줬으면 한다고. "
     "그러나 중요한 것은 이게 아니다. "
-        hide hanbyeol with dissolve
+    hide hanbyeol with dissolve
     yeongwon"하지만, 한설이 이야기를 하기 전에, 이 이야기를 들어 줘. "
     "한 발짝 다가가서, "
     yeongwon"그날 있었던 일은, 모든 게 내 탓이야. "
@@ -1629,7 +1425,7 @@ label scene323:
     "한별이는, 내 앞에 서 있는 대신에- "
     "내게 다가와, 나를 껴안고 있었다. "
     yeongwon"......"
-        show hanbyeol serious2 with dissolve
+    show hanbyeol serious2 with dissolve
     hanbyeol"때리다니... 내가 널 때릴 수 있다고 생각해..?"
     hanbyeol"웃기지 마..."
     hanbyeol sad2"무리하게 움직이자고 한 것도... 매번 불안해하고 초조해했던 것도..."
@@ -1644,20 +1440,20 @@ label scene323:
     "눈앞에 있는 작은 한별이의 어께가 흐려진다. "
     "마지막으로, 마음의 문을 걸어잠그던 제방이 터져나온다. "
     yeongwon"으으....윽...으아아아아아아앙..."
-    scene bg blackscreen with Dissolve(1.0)         
+    scene bg blackscreen with Dissolve(1.0)     
     "너나 할 것 없이 눈물을 흘린다. "
     "비가 세차게 내린 뒤에는, 땅이 굳어진다. "
     "그래. 이걸로 된 거야. "
     "우리는 다시, 마지막을 향한 여행길에 오른다. "
 
 label scene324:
-    scene bg sky with Dissolve(1.0)         
+    scene bg sky with Dissolve(1.0)     
     "이 이야기는, 이미 커버린 소년과 소녀의 이야기. "
     "성실하고 총명한 소녀는 반장이 되었지만, "
     "항상 수업에 나오지도 않는 소년은 문제아가 되어 버렸다. "
     "그러나 그 둘의 어릴 적으로부터의 관계는 변함이 없어, "
     "시간이 지날수록 그들의 사이는 더욱 깊어진다. "
-    scene bg jeon3_1 with Dissolve(1.0)         
+    scene bg jeon3_1 with Dissolve(1.0)     
     shonen"책이란 것을 단순히 쓰기만 한다는 거는, 너무 지루해. "
     shojo"하지만, 그건 이젠 이루어질수 없는 상상인걸. "
     shojo"이제는 우리들에게 주어진 것으로, 우리들만의 미래를 만들어갈 뿐. "
@@ -1665,7 +1461,7 @@ label scene324:
     shonen"하지만, 우리들이 책의 주인공이 된다면 어떨까? "
     "그러나 어디까지나 상상이였던 이야기를 현실로 끌고 오는 것."
     "이 중에 누구도, 진지하게 생각하지 않았던 것. "
-    scene bg sky with Dissolve(1.0)         
+    scene bg sky with Dissolve(1.0)     
     "소년은, 언제나 자유를 동경해온 것이다."
     "소년의 책에 내용이 써내려가진다.  "
     "언제라도 타오를것만 같은, 자유의 불꽃. "
@@ -1674,12 +1470,12 @@ label scene324:
     "소년소녀는 엇갈린다. "
     "소년의 책에 소녀는 점점 자취를 감춘다. "
     "그리고, 결정적인 사건이 발생한다. "
-    scene bg classroom with Dissolve(1.0)         
+    scene bg classroom with Dissolve(1.0)     
     mstudent"저...저게 무슨 일이야?!"
     fstudent"빨리 선생님 불러와!!"
     "모두를 구속으로부터 해방시키겠다는, 감히 소설의 주인공과 같은 소년의 마음. "
     "그러나, 그 생각은 반대로 모두를 재앙으로 이끌었다. "
-    scene bg jeon3_2 with Dissolve(1.0)         
+    scene bg jeon3_2 with Dissolve(1.0)     
     "출입 시스템을 열어버리겠다고 생각했던 소년은, "
     "감히 아무도 건드리지 못한 차폐막에 손을 대버리고 말았다. "
     "하늘에 구멍이 뚫렸다. "
@@ -1689,7 +1485,7 @@ label scene324:
     "소녀가 처음으로 본, 자유를 갈망하던 자의 최후. "
     "햇빛이 내리쬐지 않는다고 해도, 우산 따위로는 막을 수 없어. "
     "자유라는 글자는, 소녀의 마음속에서 영원히 지워져 버린 걸까. "
-    scene bg jeon3_3 with Dissolve(1.0)         
+    scene bg jeon3_3 with Dissolve(1.0)     
     "소녀는 반장을 뛰어넘어, 계단을 올라간다. "
     "이미 어딘가로 떠나버린 소년을 생각하며. "
     "그리움의 빈자리를 다른 것으로 채우기 위해. "
@@ -1697,6 +1493,6 @@ label scene324:
     "소년에 관한 이야기가 나오면 이렇게 이야기한다."
     shojo"하지만, 나는 그가,"
     shojo"정말로 싫은걸. "
-    scene bg blackscreen with Dissolve(1.0)         
+    scene bg blackscreen with Dissolve(1.0)     
     "마음에도 없는 이야기를 하는 건, 모든 상처받은 이들의 공통."
     "소녀의 마음은, 언젠가부터 부서져 있었다. " 

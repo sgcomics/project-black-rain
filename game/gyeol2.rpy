@@ -214,7 +214,7 @@ transform moveslightleft:
     linear 0.5 xalign 0.3
 
 # 여기에서부터 게임이 시작합니다.
-label start:
+label scene421:
 
     scene bg school
     with Dissolve(.5)
@@ -311,7 +311,7 @@ label start:
     with Dissolve(.25)
     yeongwon "... 네. 알겠어요. 원장 선생님. 선생님의 제안을 받아들일게요."
 
-label part2:
+label scene422:
     scene bg lab
     with fade
     "마음 속에서 계속 불길한 기운이 스멀스멀 피어 오른다."
@@ -693,7 +693,7 @@ label part2:
 
     principal "후훗. 당연하지, 영원아. 좋은 시간 보내고 오렴."
 
-label part3:
+label scene423:
 
     scene bg school
     with fade
@@ -993,7 +993,7 @@ label part3:
     "그러려면 지식이든... 권력이든 뭐든... 강한 힘이 필요해."
     "원장 선생님처럼."
 
-label part4:
+label scene424:
 
     scene bg school
     with fade

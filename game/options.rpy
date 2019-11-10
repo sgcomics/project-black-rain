@@ -45,7 +45,7 @@ define build.name = "BlackRain"
 
 define config.has_sound = True
 define config.has_music = True
-define config.has_voice = True
+define config.has_voice = False
 
 
 ## 사용자가 음향 또는 음성 채널에서 테스트 사운드를 재생할 수 있게 하려면 아래
@@ -116,7 +116,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## 기본 글자 속도를 제어합니다. 기본적으로, 0은 즉시이며 다른 숫자는 초당 입력
 ## 할 문자 수입니다.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 25
 
 
 ## 기본 auto-forward 지연 시간입니다. 숫자가 클수록 대기 시간이 길어지며, 0 ~ 30
@@ -189,13 +189,6 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
-
-
-## 확장 파일을 다운로드하고 인앱 구매를 수행하려면 Google Play 라이센스 키가 필
-## 요합니다. Google Play 개발자 콘솔의 "서비스 및 API"페이지에서 확인할 수 있습
-## 니다.
-
-# define build.google_play_key = "..."
 
 
 ## itch.io 프로젝트와 연관된 사용자 이름과 프로젝트 이름이며 슬래시로 구분됩니
