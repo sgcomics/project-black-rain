@@ -1,37 +1,6 @@
 define TrueEnding = 0 #트루엔딩 포인트
 define BadEnding = 0 #배드엔딩 포인트
 
-transform right:
-    xalign 0.95
-    yalign 1.0
-
-transform left:
-    xalign 0.05
-    yalign 1.0
-
-transform slightleft:
-    xalign 0.30
-    yalign 1.0
-
-transform slightright:
-    xalign 0.75
-    yalign 1.0
-
-transform moveright:
-    linear 0.5 xalign 0.95
-
-transform movecenter:
-    linear 0.5 xalign 0.5
-
-transform moveslightright:
-    linear 0.5 xalign 0.75
-
-transform moveleft:
-    linear 0.5 xalign 0.05
-
-transform moveslightleft:
-    linear 0.5 xalign 0.3
-
 label scene300: 
     # play music "music/sentimental.mp3" fadeout 1
     scene bg blackscreen with Dissolve(1.0)
