@@ -47,16 +47,16 @@ label scene411:
     show haneul shock at right
     with dissolve
     hide yeongwon
-    show yeongwon shockb
+    
     with dissolve
     haneul "읏..."
     hide haneul
-    show haneul shockb at right
+    
     show hanbyeol shock at left
     with dissolve
     hanbyeol "어떻게 된 거야..."
     hide hanbyeol
-    show hanbyeol shockb at left
+    
     with dissolve
     hide hanbyeol
     hide yeongwon
@@ -107,16 +107,16 @@ label scene411:
     yeongwon "우...우욱...!"
     "순간 헛구역질이 났다. 한별이와 하늘이 또한 당황한 표정이었고, 한별이는 입술을 깨물고 떨고 있었다."
     hide yeongwon
-    show yeongwon shockb
+    
     with dissolve
     show haneul shock at left
     with dissolve
-    show overwatch idleb at right
+    
     with dissolve
     haneul "원장... 저런 짓까지...."
 
     hide haneul
-    show haneul shockb at left
+    
     with dissolve
     hide overwatch
     show overwatch idle at right
@@ -128,14 +128,14 @@ label scene411:
     teacher "다행이야, 그래도 우리 하늘이는 잘 버텨 줘서."
 
     hide overwatch
-    show overwatch devilb at right
+    
     hide yeongwon
     show yeongwon shock
     with dissolve
     yeongwon "...뭐라고요?"
 
     hide yeongwon
-    show yeongwon shockb
+    
     hide overwatch
     show overwatch idle at right
     with dissolve
@@ -146,7 +146,7 @@ label scene411:
     "1반 선생님(?)" "어차피 곧 죽게 되는 김에 다 알려 주지. 나는 사실 세계정부에서 실험을 감독하라고 파견한 감시자다."
 
     hide overwatch
-    show overwatch devilb at right
+    
     with dissolve
     "건조한 톤으로 친절한 설명이 이어졌다."
 
@@ -161,7 +161,7 @@ label scene411:
     overwatch "선생 역할을 하면서 너희랑 정도 들어버렸는데 여기서 끝이라니 좀 허무하네?"
 
     hide overwatch
-    show overwatch devilb at right
+    
     with dissolve
     "이게 다 무슨 말이지...? 선생님이... 정부의 감시자....?"
     "선생님은 항상 학생들에게 친근하고 상냥하게 대해 주어서 믿고 따르는 아이들이 많았다."
@@ -173,14 +173,14 @@ label scene411:
     hide yeongwon
     show yeongwon shock
     hide overwatch
-    show overwatch devilb at right
+    
     with dissolve
     yeongwon "그럼 원장은 왜..."
 
     hide overwatch
     show overwatch fury at right
     hide yeongwon
-    show yeongwon shockb
+    
     with dissolve
     overwatch "그 여자는 이제 쓸모가 없게 되어서 버렸어. 애들한테 업무기밀이나 술술 불고 말이지."
     overwatch "그래도 시키는 대로 말은 나름 잘 들었는데 참 아쉽게 됐어."
@@ -191,26 +191,26 @@ label scene411:
     show hanbyeol shock
     with dissolve
     hide overwatch
-    show overwatch furyb at right
+    
     with dissolve
     hanbyeol "그... 그럼 이 모든 걸 다 네가..."
 
     hide overwatch
     show overwatch devil at right
     hide hanbyeol
-    show hanbyeol shockb
+    
     with dissolve
     overwatch "음? 너는 한설이의 언니였지? 그 애 참 귀엽고 싹싹했는데."
 
     hide overwatch
-    show overwatch devilb at right
+    
     hide hanbyeol
     show hanbyeol fury
     with dissolve
     hanbyeol "이 개새끼야아아아!!!!!!!!!!!"
 
     hide hanbyeol
-    show hanbyeol furyb
+    
     with dissolve
     "소리를 지르며 한별이가 선생... 아니 감시자에게 달려들었다."
 
@@ -236,7 +236,7 @@ label scene411:
     hide haneul
     show haneul serious at left
     hide yeongwon
-    show yeongwon shockb
+    
     with dissolve
     haneul "내가... 내가 어떻게든 해 볼게."
     hide haneul
@@ -256,12 +256,12 @@ label scene411:
 
     show yeongwon shock
     with dissolve
-    show overwatch idleb at right
+    
     with dissolve
     yeongwon "크윽..."
 
     hide yeongwon
-    show yeongwon shockb
+    
     show haneul serious at left
     with dissolve
     haneul "그만... 이젠 그만해... 나를 데려가!!!"
@@ -272,7 +272,7 @@ label scene411:
     haneul "내가 따라가서 원하는 게 뭐든 다 해줄 테니 한별이와 영원이는 제발 놔줘... 입막음도 철저히 할게."
 
     hide haneul
-    show haneul sadb at left
+    
     with dissolve
     "하늘이의 목소리였다. 그건 안 돼. 이런 식으로 나만 살아서 무슨 의미가 있을까."
 
@@ -282,7 +282,7 @@ label scene411:
     yeongwon "하늘아...!"
 
     hide yeongwon
-    show yeongwon sadb
+    
     hide overwatch
     show overwatch fury at right
     with dissolve
@@ -290,7 +290,7 @@ label scene411:
     overwatch "너가 순순히 따라줘야 친구들이 편히 죽을 수는 있겠지."
 
     hide overwatch
-    show overwatch furyb at right
+    
     with dissolve
     "감시자는 나를 누르고 있던 발을 옮겨 내 목을 짓눌렀다."
 
@@ -303,12 +303,12 @@ label scene411:
     "숨을 쉴 수가 없었다. 눈앞이 조금씩 흐려져 갔다."
 
     show yeongwon shock
-    show overwatch furyb at right
+    
     with dissolve
     yeongwon "......윽..."
 
     hide yeongwon
-    show yeongwon shockb
+    
     hide overwatch
     show overwatch fury at right
     with dissolve
@@ -329,12 +329,12 @@ label scene411:
     "막혀 있던 숨이 터져 나왔다."
 
     show yeongwon shock
-    show overwatch idleb at right
+    
     with dissolve
     yeongwon "허억... 허억..."
 
     hide yeongwon
-    show yeongwon shockb
+    
     hide overwatch
     show overwatch idle at right
     with dissolve
@@ -376,19 +376,19 @@ label scene411:
     scene background lab
     with fade
     show haneul idle
-    show hanbyeol idle2b at left
+    
     with dissolve
     haneul "조금만 가만히 있어봐."
 
     hide haneul
-    show haneul idleb
+    
     hide hanbyeol
     show hanbyeol idle2 at left
     with dissolve
     hanbyeol "알았어. 앗...!"
 
     hide hanbyeol
-    show hanbyeol idle2b at left
+    
     with dissolve
     "하늘이가 다친 나와 한별이를 위해 응급처치를 해주겠다고 나섰다. 의외로 실력이 수준급이었다. 양호선생님보다 더 잘 할지도 모르겠다는 생각이 들었다."
     "하늘이에게 이런 재능이 있다는 것을 처음 알았다."
@@ -398,14 +398,14 @@ label scene411:
     yeongwon "하늘아, 이렇게 하는 건 어디서 배운 거야?"
 
     hide yeongwon
-    show yeongwon idle2b at right
+    
     hide haneul
     show haneul idle
     with dissolve
     haneul "특별반에서 수업시간에 배웠는데, 관심이 가서 따로 열심히 공부했거든."
 
     hide haneul
-    show haneul idleb
+    
     with dissolve
     "하긴 나도 어렸을 때 응급처치 교육을 잠깐 받았던 것 같다."
     "나는 대강 듣고 다 까먹었는데, 하늘이는 기억하고 있는 모양이다. 학교에서 가르치는 데는 다 이유가 있었다."
@@ -428,7 +428,7 @@ label scene411:
     hanbyeol "영원아... 나 이제 괜찮아."
 
     hide hanbyeol
-    show hanbyeol sad2b at left
+    
     with dissolve
     "내 생각을 읽기라도 하듯 한별이가 내게 말했다."
     "순간 눈물이 고였다."
@@ -441,21 +441,21 @@ label scene411:
     yeongwon "우리 꼭 다 같이 탈출하자!"
 
     hide yeongwon
-    show yeongwon seriousb at right
+    
     hide hanbyeol
     show hanbyeol happy at left
     with dissolve
     hanbyeol "당연하지. 나가서 너랑 하늘이랑 대놓고 꽁냥대는 거, 구경할 거 생각하니 즐겁다. "
 
     hide hanbyeol
-    show hanbyeol happyb at left
+    
     hide yeongwon
     show yeongwon blush at right
     with dissolve
     yeongwon "에... 에엥?!"
 
     hide yeongwon
-    show yeongwon blushb at right
+    
     with dissolve
     "너무 훅 들어오는 거 아니야? 얼굴이 순간 붉어졌다."
     "하늘이는 고개를 숙이고 쿡쿡거리며 웃고 있었다. 이게 그렇게 비웃을 정도인가?!"
@@ -465,21 +465,21 @@ label scene411:
     haneul "이 정도면 된 것 같아. 일어날 수 있겠어?"
 
     hide haneul
-    show haneul idleb
+    
     hide hanbyeol
     show hanbyeol idle at left
     with dissolve
     hanbyeol "대충 움직일 수 있을 것 같아. 고마워."
 
     hide hanbyeol
-    show hanbyeol idleb at left
+    
     hide haneul
     show haneul idle
     with dissolve
     haneul "아직은 부축 없이 걷기 힘들 거야. 앞으로는 조심해야 돼, 한별아."
 
     hide haneul
-    show haneul idleb
+    
     hide hanbyeol
     with dissolve
     "사이렌은 아직도 울리고 있었다."
@@ -490,14 +490,14 @@ label scene411:
     yeongwon "빨리 움직여야 할 것 같아. 이제 어디로 가야 하지...?"
 
     hide yeongwon
-    show yeongwon seriousb at right
+    
     hide haneul
     show haneul serious
     with dissolve
     haneul "일단 아이들이 있는 기숙사동 쪽으로 가자. 아마 다들 당황해서 나와 있을 거야."
 
     hide haneul
-    show haneul seriousb
+    
     hide yeongwon
     show yeongwon idle at right
     with dissolve
@@ -553,7 +553,7 @@ label scene411:
     with dissolve
     yeongwon "잠시만, 잠시만 모두 들어 주세요!"
     hide yeongwon
-    show yeongwon seriousb
+    
     with dissolve
     "나는 원장의 정체, 1반 선생님의 정체를 포함한 모든 사실을 숨가쁘게 이야기했다."
     hide yeongwon
@@ -576,7 +576,7 @@ label scene411:
     yeongwon "그래서...!"
     yeongwon "곧 국가에서 사람을 보낼 거야. 우리는 그전에 탈출해야 해."
     hide yeongwon
-    show yeongwon seriousb
+    
     with dissolve
     "사실 다 함께 탈출이 가능할지 장담할 수는 없었다."
     "가야만 한다고, 목소리 높여 말했지만 마음 한켠에서는 불안함이 계속 있었다."
@@ -590,7 +590,7 @@ label scene411:
     with dissolve
     haneul "다들 학교에 있는 폐건물 알고 있을 거야. 그쪽에..."
     hide haneul
-    show haneul seriousb at right
+    
     #hide fstudent
     show fstudent
     with dissolve
@@ -644,8 +644,8 @@ label scene411:
     scene background school
     with fade
 
-    show yeongwon shockb at left
-    show haneul seriousb at right
+    
+    
     with dissolve
     "뛰쳐나가려는 나를 갑자기 하늘이가 팔을 뻗어 강하게 막아섰다."
     "하늘이의 팔은 잘게 떨리고 있었다."
@@ -657,13 +657,13 @@ label scene411:
     haneul "영원아... 움직이지 마. 뭔가 이상해."
 
     hide haneul
-    show haneul seriousb at right
+    
     hide yeongwon
     show yeongwon shock at left
     with dissolve
     yeongwon "...?"
     hide yeongwon
-    show yeongwon shockb at left
+    
     with dissolve
     "주위는 공포에 지배당하고 있었다."
     "몇몇의 아이들은 항복했다는 듯이 친위대의 앞에서 무릎을 꿇고 있었다."
@@ -686,11 +686,11 @@ label scene411:
     scene background dayhideout
     with fade
     show yeongwon serious at left
-    show haneul seriousb at right
+    
     with dissolve
     yeongwon "하아... 하아..."
     hide yeongwon
-    show yeongwon seriousb at left
+    
     with dissolve
     "미친 듯이 달려 아지트까지 도착했다. 이제는 둘밖에 남아있지 않은 우리들의 아지트."
     "한별이... 고아원의 아이들... 같이 탈출하자 해놓고, 나는 아무것도 할 수 있는 것이 없었다."
@@ -700,7 +700,7 @@ label scene411:
     with dissolve
     haneul "영원아. 지혈을 해야 할 것 같아."
     hide haneul
-    show haneul seriousb at right
+    
     with dissolve
     "하늘이의 목소리였다."
     "아, 그러고 보니 아까 도망치다가 총알에 팔을 살짝 스쳤었다. 자각하자마자 팔이 아려오기 시작했다."
@@ -713,7 +713,7 @@ label scene411:
     "고개를 들어 하늘이를 쳐다보니 하늘이 또한 많이 지쳐 있는 표정이었다. 얼굴이 더 하얗게 질려 있었다."
     "자기도 아프면서..."
     hide yeongwon
-    show yeongwon idleb at left
+    
     hide haneul
     show haneul serious at right
     with dissolve
@@ -721,11 +721,11 @@ label scene411:
     hide yeongwon
     show yeongwon happy at left
     hide haneul
-    show haneul seriousb at right
+    
     with dissolve
     yeongwon "당연하지! 조금만 더 가면 완충구역이야!"
     hide yeongwon
-    show yeongwon happyb at left
+    
     with dissolve
     "하늘이에게는 억지로 밝은 모습을 보이려 했다."
     "구교사 근처에 위치해 있는 아지트는 더 깊숙한 곳으로 가면 완충구역과 연결되어 있다."
@@ -737,7 +737,7 @@ label scene411:
     with dissolve
     yeongwon "하늘아, 나가자."
     hide yeongwon
-    show yeongwon seriousb at left
+    
     hide haneul
     show haneul serious at right
     with dissolve
@@ -769,7 +769,7 @@ label scene411:
     "아까의 피바람이 다시 눈앞에 일렁였다."
     "뱃속의 장기가 묶인 것처럼 욱신거렸다. 관절 마디마디가 쓰라려왔다. 목까지 차오른 울음에 입술을 깨물며 버텼다."
     "참아야 돼. 지금 나만 힘든 게 아니야. 울어서 되는 건 없어. 계속 가야 돼!"
-    show yeongwon shockb at left
+    
     with dissolve
     "친위대" "거기 서!!"
     hide yeongwon
@@ -779,7 +779,7 @@ label scene411:
     show haneul shock at right
     with dissolve
     hide yeongwon
-    show yeongwon shockb at left
+    
     with dissolve
     haneul "...머... 멀리서 들린 것 같아."
     hide haneul
@@ -790,35 +790,35 @@ label scene411:
     "그래도 갈수록 구도시의 흔적과 폐건물들이 띄엄띄엄 나오고 있어서, 안전구역을 꽤 벗어났음을 알 수 있었다."
     "둘 다 당장 쓰러져도 이상할 게 없는 상태라, 이쯤에서 사기를 북돋울 필요가 있다고 생각했다."
     show yeongwon idle at left
-    show haneul seriousb at right
+    
     with dissolve
     yeongwon "하늘아, 우리 이제 조금만 힘내자! 진짜... 많이 왔으니까...! 곧 탈출......!"
     hide yeongwon
-    show yeongwon idleb at left
+    
     with dissolve
     "그 이상 말을 이을 수 없었다. 하늘이 낯빛이 꼭 시체 같았다."
     "씩씩한 척하려 했는데, 누가 들어도 우스꽝스러울 염소 울음소리가 나왔다."
     "그 목소리에 내가 울컥해서 한참 만에 열었던 입술을 다시 깨물었다."
     "이런 미친 상황에 희망적인 말을 짜내는 스스로가 너무 비참한데, 이마저도 없으면 걸음 뗄 의욕조차 잃을 것 같았다."
     hide yeongwon
-    show yeongwon idleb at left
+    
     hide haneul
     show haneul serious at right
     with dissolve
     haneul "......"
     hide haneul
-    show haneul seriousb at right
+    
     with dissolve
     "하늘이는 아무 말이 없었다. 나는 눈물이 앞을 가렸다."
     "참고 또 참았지만 이제 걷잡을 수 없었다. 몸을 가눌 힘도 의지도 남아있지 않았다. 서로를 부축하던 팔에 힘은 점점 빠져갔다."
     hide haneul
-    show haneul seriousb at right
+    
     hide yeongwon
     show yeongwon sad at left
     with dissolve
     yeongwon "하...늘아... 왜 대답이... 흑..."
     hide yeongwon
-    show yeongwon sadb at left
+    
     with dissolve
     "빠캉-!!"
     hide haneul
@@ -861,7 +861,7 @@ label scene411:
     "좀 뻐근하긴 하지만 팔다리는 잘 움직인다. 걷는 데는 문제가 없겠군."
     "그때, 방문이 스르르 열리며 중년의 남자가 들어왔다."
     hide yeongwon
-    show yeongwon shockb
+    
     with dissolve
     "보호소 남자" "오. 일어났니? 아직은 좀 더 휴식을 취하는 게 좋을 거야."
     hide yeongwon
@@ -869,7 +869,7 @@ label scene411:
     with dissolve
     yeongwon "아... 네? 근데 누구...세요? 여긴 어디죠?"
     hide yeongwon
-    show yeongwon idleb
+    
     with dissolve
     "보호소 남자" "여긴 완충구역에서 갈 곳 없는 사람들을 보호하는 보호소란다. 나는 여기서 가끔 오는 사람들을 치료하거나 보호하는 일을 맡고 있지."
     "보호소 남자" "고아원에서 일이 터진 것 같다길래, 탐색을 하다가 너희가 기절해 있는 걸 발견해서 데려왔어. 그때로부턴 이틀이 지났다."
@@ -878,7 +878,7 @@ label scene411:
     with dissolve
     yeongwon "아아, 감사합니다..."
     hide yeongwon
-    show yeongwon idleb
+    
     with dissolve
     "보호소 남자" "지금 있는 곳은 너희들이 있던 고아원에서는 꽤 먼 곳에 있을 거다."
     "보호소 남자" "국가의 감시를 피하기 위해 안전구역에서는 멀리 떨어져 있거든."
@@ -888,7 +888,7 @@ label scene411:
     with dissolve
     yeongwon "완충구역에 이런 곳이 있는지 전혀 몰랐어요. 아무도 없는 줄 알았는데."
     hide yeongwon
-    show yeongwon idleb
+    
     with dissolve
     "보호소 남자" "생각보다 완충구역으로 오는 사람이 많다 보니... 이런 곳도 생겨났네."
     "보호소 남자" "나가면 병원이랑 식량 보급소, 작은 학교 등 사람 살 만한 건 다 있어."
@@ -898,7 +898,7 @@ label scene411:
     "신기하다. 이런 마을이 안전구역 외부에도 있었다니."
     yeongwon "그럼 여기 사는 사람들은 추방된 사람들인가요...?"
     hide yeongwon
-    show yeongwon idleb
+    
     with dissolve
     "보호소 남자" "맞아. 추방된 사람. 세계정부 하는 짓이 지겨워서 제 발로 뛰쳐나온 사람도 있고."
     hide yeongwon
@@ -908,7 +908,7 @@ label scene411:
     "제일 물어보고 싶은 것이었다. 그 참상을 직접 봤지만 믿을 수가 없었기 때문에."
     "머릿속에 있는 영상이 제발 사실이 아니었으면 좋겠다."
     hide yeongwon
-    show yeongwon idleb
+    
     with dissolve
     "보호소 남자" "......"
     hide yeongwon
@@ -916,7 +916,7 @@ label scene411:
     with dissolve
     yeongwon "...사실대로 말해 주세요."
     hide yeongwon
-    show yeongwon seriousb
+    
     with dissolve
     "보호소 남자" "나는... 고아원 근처엔 가까이 갈 수 없었단다. 운좋게 빠져나온 아이들을 몇 명 구해내긴 했지만..."
     hide yeongwon
@@ -924,7 +924,7 @@ label scene411:
     with dissolve
     yeongwon "네..."
     hide yeongwon
-    show yeongwon sadb
+    
     with dissolve
     "보호소 남자" "배고프지? 먹을 걸 가져오마."
     "그 말을 끝으로 남자는 말을 피하려는 듯 나가 버렸다."
@@ -942,11 +942,11 @@ label scene411:
     "다만 우리 둘 중 누구도 고아원에 대한 언급을 하지 않았다."
     "나와 하늘이는 햇빛을 피하기 위해 보호소 안에 들어와 앉아 있었다."
     show haneul serious at left
-    show yeongwon idleb at right
+    
     with dissolve
     haneul "영원아, 원장이 바뀌었대."
     hide haneul
-    show haneul seriousb at left
+    
     show yeongwon idle at right
     with dissolve
     yeongwon "응?"
@@ -955,13 +955,13 @@ label scene411:
     with dissolve
     yeongwon "...뭐라고...?"
     hide yeongwon
-    show yeongwon seriousb at right
+    
     hide haneul
     show haneul serious at left
     with dissolve
     haneul "...사람들이 지나가면서 얘기하는걸 들었어. 염소고아원에 새로운 원장이..."
     hide haneul
-    show haneul seriousb at left
+    
     with dissolve
     "얘가 뭔 소리를 하는지 모르겠네. 무슨 원장...?"
     "원장. 바닥에 내동댕이쳐져 씁쓸한 미소를 지은 모습으로 차갑게 식어가던 원장의 모습이 떠올랐다."
@@ -974,7 +974,7 @@ label scene411:
     with dissolve
     haneul "나도 믿을 수가 없었어...."
     hide haneul
-    show haneul sadb at left
+    
     with dissolve
     "하늘이는 울고 있었다."
     "생소한 모습이다."
@@ -984,13 +984,13 @@ label scene411:
     with dissolve
     haneul "영원아... 너도 이젠 쉬어도 돼."
     hide haneul
-    show haneul sadb at left
+    
     hide yeongwon
     show yeongwon sad at right
     with dissolve
     yeongwon "흑...흑......"
     hide yeongwon
-    show yeongwon sadb at right
+    
     with dissolve
     "눈앞이 흐려졌다."
     "손바닥으로 가릴 수 없을 정도로 눈물이 흘렀다."
@@ -1016,17 +1016,17 @@ label scene411:
     with dissolve
     "의자에 앉아 도구들을 정리하고 있던 하늘이가 놀란 표정으로 고개를 돌렸다."
     show haneul adult at right
-    show yeongwon adultb at left
+    
     with dissolve
     haneul "어, 일찍 끝났네?"
     hide haneul
-    show haneul adultb at right
+    
     hide yeongwon
     show yeongwon adult at left
     with dissolve
     yeongwon "그냥, 오늘은 정리만 하고 일찍 나왔어."
     hide yeongwon
-    show yeongwon adultb at left
+    
     hide haneul
     show haneul adult at right
     with dissolve
@@ -1034,11 +1034,11 @@ label scene411:
     hide yeongwon
     show yeongwon adult at left
     hide haneul
-    show haneul adultb at right
+    
     with dissolve
     yeongwon "그럼 먼저 가서 준비하고 있을게. 파이팅하고!"
     hide yeongwon
-    show yeongwon adultb at left
+    
     hide haneul
     show haneul adult at right
     with dissolve

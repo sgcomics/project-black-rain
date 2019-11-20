@@ -26,16 +26,16 @@ label scene101:
     show yeongwon idle at left
     with dissolve
     yeongwon "차렷, 선생님께 경례!"
-    show yeongwon idleb
+    
     show mstudent idle at right
     with dissolve
     mstudent "수고하셨습니다~~"
-    show mstudent idleb
+    
     show yeongwon happy at left
     with dissolve
     yeongwon "한별아, 점심 먹으러 갈래?"
     yeongwon "오늘은 맛있는 게 나왔으면 좋겠다!"
-    show yeongwon happyb
+    
     show mstudent idle
     with dissolve
     mstudent "오늘은 급식표에 소세지라고 적혀 있네."
@@ -55,7 +55,7 @@ label scene101:
     show hanseol happy at left
     with dissolve
     hanseol "별아~ 영원아~ 빨리 줄 서자~"
-    show hanseol happyb
+    
     with dissolve
     "언제나 차분한 한별이와 다르게 언제나 해맑은 한설이."
     "한별이의 쌍둥이 동생이지만 둘의 성격은 정반대다."
@@ -64,22 +64,22 @@ label scene101:
     with dissolve
     hanseol "영원이 너어, 고등부 올라가서 한별이랑만 같은 반 되더니 둘이서만 친해진 거 아냐?"
     hanseol "나랑도 친하게 지내주지 않으면 삐진다!"
-    show hanseol happy2b
+    
     show yeongwon happy at right
     with dissolve
     yeongwon "한설이 너, 보다 보면 한별이 몫의 수다까지 네가 하는 것 같단 말야."
     show yeongwon idle
     with dissolve
     yeongwon "그리고 아무리 쌍둥이라도 언니는 언니인데, 밖에서는 언니라고 불러주는 게 나을 것 같아."
-    show yeongwon idleb
+    
     show hanseol happy at left
     with dissolve
     hanseol "쌍둥이인데 뭐 어때?"
-    show hanseol happyb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "...한설아, 머리 아프네. 조용히 좀 해줄래?"
-    show hanbyeol idleb
+    
     with dissolve
     "역시나."
     "예상대로의 반응이네."
@@ -88,43 +88,43 @@ label scene101:
     hanseol "그나저나 영원이 네가 반장이 될 줄은 몰랐어."
     hanseol "그전까지는 한별이가 계속 반장이었는데 말이야."
     hanseol "대체 무슨 바람이 불었길래 반장이 된 거야?"
-    show hanseol happyb
+    
     with dissolve
     show yeongwon shock at right
     with dissolve
     yeongwon "어... 그게..."
-    show yeongwon shockb
+    
     with dissolve
     "뭐라고 말해야 하지?"
     show hanbyeol idle
     with dissolve
     hanbyeol "중등부까지는 다들 어려서 일하는 반장이 필요했을 뿐이야."
     hanbyeol "하지만 이제는 다들 자기 앞가림을 하니 나보단 활발한 영원이가 더 잘 어울릴 뿐이지."
-    show hanbyeol idleb
+    
     show hanseol idle
     with dissolve
     hanseol "어쨌거나 어릴 때는 어두침침하던 영원이가 이렇게 밝아질 줄은 몰랐어."
     hanseol "나 감동이야... 영원이 이제 다 컸구나~"
-    show hanseol idleb
+    
     show yeongwon idle2 at right
     with dissolve
     yeongwon "너 정말 그만해! 그리고 내가 너보다 크거든?"
-    show yeongwon idle2b
+    
     show hanseol shock at left
     with dissolve
     hanseol "윽..."
-    show hanseol shockb
+    
     with dissolve
     "이야기를 나누다보니 벌써 점심시간이 끝났다."
     show yeongwon idle at right
     with dissolve
     yeongwon "어쨌든 오늘 일과시간 끝나고 내 방으로 오는 거 잊지마."
     yeongwon "남 눈에 띄지 않도록 조심하고."
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "알았어. 기억할게."
-    show hanbyeol idleb
+    
     show hanseol idle at left
     with dissolve
     hanseol "응!"
@@ -138,11 +138,11 @@ label scene101:
     show hanseol idle at left
     with dissolve
     hanseol "그래서 할 이야기가 뭔데."
-    show hanseol idleb
+    
     show yeongwon idle at right
     with dissolve
     yeongwon "쉿. 목소리 낮춰."
-    show yeongwon idleb
+    
     with dissolve
     "언제나 그렇지만 한설이에겐 위기감이 없다."
     "머리 속이 꽃밭이라 죽어도 꽃밭에서 죽을 것 같다."
@@ -172,25 +172,25 @@ label scene101:
     with dissolve
     hanseol "우리, 하늘이랑 연우 다시 볼 수 있는 거야?"
     "한설이의 눈에 눈물이 그렁그렁 맺혔다."
-    show hanseol sadb
+    
     show yeongwon happy
     with dissolve
     yeongwon "앞으로는 자주 보게 될 텐데 뭘."
-    show yeongwon happyb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "우리들의 관계가 비밀인 건 잊지 않았지?"
     hanbyeol "반에서 표정관리나 조심해."
-    show hanbyeol idleb
+    
     show hanseol idle
     with dissolve
     hanseol "넌 기쁘지도 않은 거야?"
-    show hanseol idleb
+    
     show hanbyeol happy
     with dissolve
     hanbyeol "나도 당연히 기쁘지."
     hanbyeol "그래도 곧 만날 텐데 미리 감동할 필요는 없지 않을까."
-    show hanbyeol happyb
+    
     with dissolve
     "한별이의 볼이 붉어졌다."
     "평소에는 좀처럼 볼 수 없는 반응이다."
@@ -200,7 +200,7 @@ label scene101:
     with dissolve
     yeongwon "벌써 돌아갈 시간이네."
     yeongwon "나머지는 다음에 또 이야기 하자."
-    show yeongwon idleb
+    
     with dissolve
     "이제 자야지."
     "그래도 궁금하다."
@@ -235,14 +235,14 @@ label scene101:
     show hanbyeol idle at left
     with dissolve
     hanbyeol "네가 늦잠이라니, 별일이야. 해가 서쪽에서 뜨겠어."
-    show hanbyeol idleb
+    
     show hanseol shock at right
     with dissolve
     hanseol "영원아, 눈이 빨개! 악몽이라도 꾼 거야?"
     show yeongwon idle
     with dissolve
     yeongwon "아무 일도 아니야, 정말 괜찮아!"
-    show yeongwon idleb
+    
     hide hanbyeol
     hide hanseol
     with dissolve
@@ -261,11 +261,11 @@ label scene101:
     with dissolve
     "A반 담임" "반장?"
     "A반 담임" "반장!"
-    show teacher idleb
+    
     show yeongwon shock at right
     with dissolve
     yeongwon "아... 아! 차렷! 선생님께 경례!"
-    show yeongwon shockb
+    
     with dissolve
     "반 친구들이 웃었다."
     "부끄러워..."
@@ -274,10 +274,10 @@ label scene101:
     with dissolve
     "A반 담임" "반장이 실수하는 모습, 처음 본 것 같네."
     show yeongwon shock
-    show teacher idleb
+    
     with dissolve
     yeongwon "죄송합니다!"
-    show yeongwon shockb
+    
     show teacher idle
     with dissolve
     "A반 담임" "아니야, 사람이 그럴 수도 있지."
@@ -287,15 +287,15 @@ label scene101:
     show yeongwon idle at left
     with dissolve
     yeongwon "......"
-    show yeongwon idleb
+    
     show hanseol idle at right
     with dissolve
     hanseol "영원아, 너 숟가락 거꾸로 들었어."
     show yeongwon shock
-    show hanseol idleb
+    
     with dissolve
     yeongwon "아, 미안. 잠시 다른 생각 하다가."
-    show yeongwon shockb
+    
     show hanseol idle2
     with dissolve
     hanseol "너 요즘 이상해."
@@ -304,11 +304,11 @@ label scene101:
     show hanbyeol idle at left
     with dissolve
     hanbyeol "영원아, 옷 뒤집어 입고 나온 것 같은데?"
-    show hanbyeol idleb
+    
     show yeongwon idle at right
     with dissolve
     yeongwon "아, 진짜네. 고마워!"
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "......"
@@ -329,64 +329,64 @@ label scene101:
     show yeongwon idle dark at right
     with dissolve
     hanbyeol "너, 요즘 이상해."
-    show hanbyeol idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "...미안."
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "물론 네가 좋아하는 마음은 알지만, 주변에 티내고 다녀서 좋을 것 없어."
-    show hanbyeol idleb
+    
     show yeongwon shock
     with dissolve
     yeongwon "누, 누가 좋아한다고!"
-    show yeongwon shockb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "누구긴 누구야, 연우랑 하늘이지."
     show hanbyeol idle
-    show yeongwon shockb
+    
     hanbyeol "우린 친구잖아?"
-    show hanbyeol idleb
+    
     show yeongwon shock
     with dissolve
     yeongwon "그렇지, 맞지. 그치, 우린 친구지. 아하하."
     show hanbyeol idle
-    show yeongwon shockb
+    
     with dissolve
     hanbyeol "하여튼, 너 요즘 좀 이상해. 정신 좀 차려."
     show hanbyeol idle
-    show yeongwon shockb
+    
     hanbyeol "비밀이라고 우리 입단속시킨 것도 너잖아."
     show yeongwon shock
-    show hanbyeol idleb
+    
     with dissolve
     yeongwon "응... 미안, 한별아."
-    show yeongwon shockb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "예전에 우리가 연우, 하늘이와 친구 사이였다는 건 중요하지 않아."
     show hanbyeol idle
-    show yeongwon shockb
+    
     hanbyeol "몰래 만나기로 한 걸 들키면 단순한 경고로는 끊나지 않을 거야."
-    show hanbyeol idleb
+    
     show yeongwon shock
     with dissolve
     yeongwon "알았어. 조심할게."
-    show yeongwon shockb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "......"
-    show hanbyeol idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "왜?"
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "아니야, 슬슬 가자."
-    show hanbyeol idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "싱겁기는."
@@ -414,15 +414,15 @@ label scene101:
     show yeongwon idle
     with dissolve
     yeongwon "한설이보다 머리 하나는 커 보인다!"
-    show yeongwon idleb
+    
     show yeonwoo happy at right
     with dissolve
     yeonwoo "그래? 나 그동안 운동 열심히 했거든."
-    show yeonwoo happyb
+    
     show yeongwon idle
     with dissolve
     yeongwon "그런데 하늘이는 그대로네?"
-    show yeongwon idleb
+    
     show yeonwoo idle
     with dissolve
     yeonwoo "우리 하늘이는 말이야, 공주님이라서 키 같은 거 안 커!"
@@ -434,14 +434,14 @@ label scene101:
     with dissolve
     hanseol "맞아맞아! 하늘이는 나보다 귀엽기까지 한걸?"
     show haneullong happy
-    show hanseol happyb
+    
     with dissolve
     haneullong "한설이는 여전히 기운차구나."
-    show haneullong happyb
+    
     show hanseol idle
     with dissolve
     hanseol "그래?"
-    show hanseol idleb
+    
     with dissolve
     "일동" "하하하."
     hide hanseol
@@ -453,19 +453,19 @@ label scene101:
     "연우가 하늘이의 시간을 모두 가져가버린 걸까?"
     show hanseol happy at left
     show hanbyeol happy dark at right
-    show haneullong happyb
+    
     with dissolve
     hanseol "하늘이는 머릿결도 여전하네."
-    show hanseol happyb
+    
     show hanbyeol happy
     with dissolve
     hanbyeol "하늘이가 머릿결이 좋긴 하지."
-    show hanbyeol happyb
+    
     show hanseol idle
     with dissolve
     hanseol "하늘아, 지금이라도 그 팔찌, 머리띠로 바꾸는 건 어때?"
     show haneullong happy
-    show hanseol idleb
+    
     with dissolve
     haneullong "그래도 난 팔찌가 좋은걸?"
     hide haneullong
@@ -521,20 +521,20 @@ label scene101:
     show hanseol idle dark at right
     with dissolve
     yeongwon "......"
-    show yeongwon idleb
+    
     show hanseol idle
     with dissolve
     hanseol "영원아? 또 밥 먹다 말고 멍때려?"
-    show hanseol idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "......"
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "영원아, 정신 좀 차려."
     show yeongwon idle
-    show hanbyeol idleb
+    
     with dissolve
     yeongwon "아, 한별아. 그러니까 하늘..."
     show hanseol idle at Position(xalign = 0.25 , yalign = 1.0)
@@ -544,12 +544,12 @@ label scene101:
     with hpunch
     "한설이가 내 입을 틀어막았다."
     show hanbyeol shock
-    show yeongwon idleb
-    show hanseol idleb
+    
+    
     with dissolve
     hanbyeol "식당에서 이름을 말해? 미쳤어?"
     hanbyeol "우리 몰래 만나는 거 들키면 모두 끝장이야. 정신 차려."
-    show hanbyeol shockb
+    
     show yeongwon shock
     with dissolve
     yeongwon "미안... 조심할게..."
@@ -563,24 +563,24 @@ label scene101:
     show yeongwon idle dark at right
     with dissolve
     "A반 담임" "저기 영원아? 미안하지만 여기 종이 옮기는 것 좀 도와줄래?"
-    show teacher idleb
+    
     show yeongwon idle at right
     with dissolve
     yeongwon "네, 선생님! 자료실 문 앞에 옮겨 놓으면 되나요?"
-    show yeongwon idleb
+    
     show teacher idle
     with dissolve
     "A반 담임" "그래. 나는 이제 교무회의에 가봐햐 하거든."
     "A반 담임" "반장이 믿음직하니 안심이네."
     "A반 담임" "그나저나, 방금 반장 '하늘'이라고 하지 않았었니?"
-    show teacher idleb
+    
     show yeongwon shock
     with dissolve
     yeongwon "아하하..."
     show yeongwon idle
     with dissolve
     yeongwon "사실 제가 하늘 보는 걸 좋아하는데, 오늘 하늘 색이 마음에 들어서요."
-    show yeongwon idleb
+    
     with dissolve
     "아... 하늘이 보고 싶어..."
     show teacher idle
@@ -599,7 +599,7 @@ label scene101:
     with dissolve
     hanbyeol "잠깐 나랑 들어가서 이야기 좀 하자."
     show yeongwon idle
-    show hanbyeol seriousb
+    
     with dissolve
     yeongwon "무슨 일이야?"
     scene background dormyeongwon
@@ -608,33 +608,33 @@ label scene101:
     show hanbyeol fury at left
     with dissolve
     hanbyeol "너 요즘 나사 풀렸더라. 정신 차려!"
-    show hanbyeol furyb
+    
     show yeongwon sad
     with dissolve
     yeongwon "응... 조심할게..."
-    show yeongwon sadb
+    
     show hanbyeol idle2
     with dissolve
     hanbyeol "그리고, 너 노력하고 있는 거 다들 알아. 무리하지 않아도 돼."
-    show hanbyeol idle2b
+    
     show yeongwon idle
     with dissolve
     yeongwon "무리는 무슨... 요즘 힘든 일 하나도 없어!"
-    show yeongwon idleb
+    
     show hanbyeol idle2
     with dissolve
     hanbyeol "너, 거짓말할 때 버릇 있는 거 알아?"
     hanbyeol "지금처럼, 목소리도 조금 커지고 억지로 웃고."
     hanbyeol "내가 널 몇 년을 봤는데 그걸 모르겠어?"
-    show hanbyeol idle2b
+    
     show yeongwon idle
     with dissolve
     yeongwon "...아냐. 오늘 하늘이 예뻐서 기분 좋아져서 그래."
-    show yeongwon idleb
+    
     show hanbyeol idle
     with dissolve
     hanbyeol "그래? 네가 그렇다면 그런 거겠지."
-    show hanbyeol idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "푹 쉬어."
@@ -772,7 +772,7 @@ label scene101:
     show hanbyeol idle at left
     with dissolve
     hanbyeol "맞아. 내가 내 친구랑 동생이랑 밥 같이 먹겠다는데 무슨 문제인지 모르겠어."
-    show hanbyeol idleb
+    
     show hanseol happy at right
     with dissolve
     hanseol "어, 뭐야. 걔네들 한별... 아니 언니 좋아하는 거 아냐?"
@@ -786,7 +786,7 @@ label scene101:
     show yeonwoo idle at left
     with dissolve
     yeonwoo "영원이는 알게 모르게 인기가 많으니까."
-    show yeonwoo idleb
+    
     show yeongwon shock2 at right
     with dissolve
     yeongwon "너희들, 무슨 소리 하는 거야?"
@@ -838,30 +838,30 @@ label scene101:
     with dissolve
     yeongwon "잠이 오지 않아서 잠시 산책하고 있었어요."
     yeongwon "죄송합니다."
-    show yeongwon idleb
+    
     show teacher idle
     with dissolve
     "A반 담임" "널 본 게 다른 선생님이 아니고 나라서 다행이야."
     "A반 담임" "선생님은 못 본 걸로 할 테니 어서 들어가 자렴."
-    show teacher idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "네..."
-    show yeongwon idleb
+    
     show teacher idle
     with dissolve
     "A반 담임" "요즘 무슨 고민 있는 거니?"
     "A반 담임" "계속 얼굴도 어둡고, 전에는 안 하던 실수도 하고 말이야."
     "A반 담임" "뭔 일 있으면 꼭 선생님한테 말하렴!"
-    show teacher idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "아무 일도 없어요!"
-    show yeongwon idleb
+    
     show teacher idle
     with dissolve
     "A반 담임" "그래. 좋은 밤 되고."
-    show teacher idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "네. 선생님도 안녕히 주무세요."
@@ -907,41 +907,41 @@ label scene101:
     with dissolve
     yeongwon "하늘아, 그동안 잘 있었어?"
     show haneul idle
-    show yeongwon happyb
+    
     with dissolve
     haneul "응. 걱정하지 않아도 돼."
     haneul "그동안 감시가 좀 심해졌을 뿐이야."
-    show haneul idleb
+    
     with dissolve
     "그러고 보니, 늘 길었던 하늘이의 머리카락이 다른 남자애들처럼 짧아졌다."
     "무슨 심경의 변화라도 있었던 걸까."
     show yeongwon idle
     with dissolve
     yeongwon "머리카락 잘랐네?"
-    show yeongwon idleb
+    
     show haneul idle
     with dissolve
     haneul "...응, 그냥 기분 전환 삼아서."
-    show haneul idleb
+    
     show yeongwon idle
     with dissolve
     yeongwon "짧은 머리도 잘 어울리네!"
-    show yeongwon idleb
+    
     show haneul happy
     with dissolve
     haneul "고마워."
-    show haneul happyb
+    
     show hanseol sad
     with dissolve
     hanseol "그런데... 연우는...?"
-    show hanseol sadb
+    
     with dissolve
     "일동" "......"
     show haneul sad
     with dissolve
     haneul "연우는, 몸이 많이 약해졌어."
     haneul "앞으로 연우는 아지트에 올 수 없을 지도 몰라."
-    show haneul sadb
+    
     with dissolve
     "순간적으로 하늘이가 울 것 같았다."
     show haneul sad
@@ -949,7 +949,7 @@ label scene101:
     haneul "...나도 몸이 좋지 않아서."
     haneul "오늘은 이만 가볼게."
     haneul "다음에 쪽지 남겨 놓을게."
-    show haneul sadb
+    
     show yeongwon sad
     with dissolve
     yeongwon "그래, 잘 가."
