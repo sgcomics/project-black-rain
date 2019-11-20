@@ -4,20 +4,21 @@ init 10:
     # Character Definition
     ################
 
-    define yeongwon = Character('영원', image="yeongwon", color="#c8ffc8")
-    define haneul = Character('하늘', image="haneul", color="#c8ffc8")
-    define hanbyeol = Character('한별', image="hanbyeol", color="#c8ffc8")
-    define hanseol = Character('한설', image="hanseol", color="#c8ffc8")
-    define yeonwoo = Character('연우', image="yeonwoo", color="#c8ffc8")
-    define principal = Character('원장', image="principal", color="#c8ffc8")
-    define overwatch = Character('감시자', image="overwatch", color="#c8ffc8")
-    define keibi = Character('경비원', color="#c8ffc8")
-    define teacher = Character('선생님', image="teacher", color="#c8ffc8")
-    define mstudent = Character('남학생', color="#c8ffc8")
-    define fstudent = Character('여학생', color="#c8ffc8")
-    define haneul2 = Character('??', color="#c8ffc8")
-    define shonen = Character('소년', color="#c8ffc8")
-    define shojo = Character('소녀', color="#c8ffc8")
+    define yeongwon = Character('영원', image="yeongwon")
+    define haneul = Character('하늘', image="haneul")
+    define haneullong = Character('하늘', image="haneullong")
+    define hanbyeol = Character('한별', image="hanbyeol")
+    define hanseol = Character('한설', image="hanseol")
+    define yeonwoo = Character('연우', image="yeonwoo")
+    define principal = Character('원장', image="principal")
+    define overwatch = Character('감시자', image="overwatch")
+    define keibi = Character('경비원')
+    define teacher = Character('선생님', image="teacher")
+    define mstudent = Character('남학생')
+    define fstudent = Character('여학생')
+    define haneul2 = Character('??')
+    define shonen = Character('소년')
+    define shojo = Character('소녀')
 
     define nvle = Character("", kind=nvl, what_text_align=0.5, what_xalign=0.5, what_yalign=0.5)
 
@@ -43,6 +44,7 @@ init 10:
     image hanbyeol shock = "hanbyeol/shock.png"
     image hanbyeol shock2 = "hanbyeol/shock2.png"
 
+    image haneul adult = "haneul/adult.png"
     image haneul fury = "haneul/fury.png"
     image haneul happy = "haneul/happy.png"
     image haneul happy2 = "haneul/happy2.png"
@@ -96,6 +98,7 @@ init 10:
     image yeonwoo idle = "yeonwoo/idle.png"
     image yeonwoo idle2 = "yeonwoo/idle2.png"
 
+    image yeongwon adult = "yeongwon/adult.png"
     image yeongwon blush = "yeongwon/blush.png"
     image yeongwon blush2 = "yeongwon/blush2.png"
     image yeongwon fury = "yeongwon/fury.png"

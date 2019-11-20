@@ -152,7 +152,7 @@ label scene101:
     yeongwon "직접 읽어봐."
     hide yeongwon
     hide hanseol
-    scene background dormyeongwonb
+    scene background dormyeongwon dark
     with dissolve
     #배경글
     nvle "쪽지 쓰는 것도 오랜만이네."
@@ -472,7 +472,7 @@ label scene101:
     hide hanseol
     hide hanbyeol
     with dissolve
-    show background nighthideoutb
+    show background nighthideout dark
     with dissolve
     "한동안 이야기가 계속됐다."
     show background nighthideout
@@ -798,7 +798,7 @@ label scene101:
     "기분 탓인가."
     "제발, 앞으로도 이런 나날이 계속되었으면."
     #12
-    scene background oldschoolb
+    scene background oldschool dark
     with fade
     "아지트에서의 짧았던 만남이 끝난 후, 다들 자기 방으로 돌아갔다."
     "하지만, 하늘이와의 만남을 떠올렸던 탓일까."
