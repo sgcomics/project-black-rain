@@ -109,8 +109,8 @@ log.txt
 traceback.txt
 project.json
 
-*/tmp/*
-*/game/saves/
+tmp/*
+game/saves/
 
 *.rpyc
 *.rpyb
