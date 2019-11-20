@@ -3,14 +3,42 @@ init 20:
     image ecg shou 2 = "ecg/shou2.png"
     image ecg shou 3 = "ecg/shou3.png"
 
+    image report_frag = "sprite/report-fragment.png"
+
+    define seen_clues = set()
+
+    screen letter(content):
+        zorder 10
+        modal False
+
+        add "sprite/letter.png":
+            at transform:
+                align (0.5, 0.5)
+                zoom 0.4
+                alpha 0.0
+                linear 0.25 alpha 1.0
+        viewport:
+            maximum (400, 400)
+            align (0.5, 0.5)
+
+            text content:
+                font "NanumHandwriting Kkotnaeum.ttf"
+                kerning 2.5
+                at transform:
+                    alpha 0.0
+                    linear 0.25 alpha 1.0
+        key "dismiss" action Return()
+
+
 # S#1. 스즈미야 하늘이의 우울 (가)
 label scene201:
+    
     scene background dormlowchroma dark
     "하늘이가 금방이라도 울음을 터뜨릴 듯한 얼굴로 돌아간 뒤,\n나는 하늘이에게 무슨 일이 생겼을까, 어떻게 위로해줄까 고민하며 밤을 보냈다."
     "연우가 쓰러져서 걱정인 걸까? 혹시 그 원장에게 크게 꾸지람이라도 들었던 걸까?"
     "새벽까지 생각에 생각을 거듭했지만, 그 어떤 것도 하늘이가 그런 얼굴을 할 만한 이유가 되지는 못했다."
     "결국, 쏟아져 오는 잠기운에 나는 하늘이를 걱정하며 잠이 들었다."
-    
+
     # Fade in/out
 
     scene background oldschool
@@ -267,14 +295,18 @@ label scene202:
     "스위치를 올리자 팔랑팔랑 종이 한 장이 스위치에서 떨어진다."
     "하늘이가 비밀 쪽지를 보낼 때 즐겨 사용하는 구름 모양 종이에 글이 적혀 있었다."
 
-    nvle "갑자기 이렇게 쪽지만 남기고 사라져서 미안해.\n원장 선생님께서 오늘 급히 부르셔서 도저히 만날 수 없을 것 같아."
-    nvle "학교 일 관련해서 조금 도와달라고 하시는 걸 보니 들킨 것 같지는 않아."
-    nvle "그래도 조금 신기한 일이네. 뭐든지 혼자 해결하실 것 같은 사람인데."
-    nvle "오늘 간다고 했는데 실망시켜 버려서 미안해... 다음에는 꼭 갈게!"
-    nvle "P.S. 아까 얼핏 들었는데, 경비원 아저씨 몇 분이 휴가 갔다가 돌아오셨대."
-    nvle "그래서 오늘 밤에는 여기까지 순찰 돈다고 하셨으니까 되도록 빨리 기숙사로 돌아가!\n절대 들키면 안 돼!"
+    call screen letter("""
+갑자기 이렇게 쪽지만 남기고 사라져서 미안해.
+원장 선생님께서 오늘 급히 부르셔서 도저히 만날 수 없을 것 같아.
+학교 일 관련해서 조금 도와달라고 하시는 걸 보니 들킨 것 같지는 않아.
+그래도 조금 신기한 일이네. 뭐든지 혼자 해결하실 것 같은 사람인데.
+오늘 간다고 했는데 실망시켜 버려서 미안해... 다음에는 꼭 갈게!
 
-    nvl clear
+P.S. 아까 얼핏 들었는데, 경비원 아저씨 몇 분이 휴가 갔다가 돌아오셨대.
+그래서 오늘 밤에는 여기까지 순찰 돈다고 하셨으니까 되도록 빨리 기숙사로 돌아가!
+절대 들키면 안 돼!
+        """ \
+    )
 
     hanseol happy "뭐야뭐야, 이 나이 먹고 러브레터야?"
     yeongwon serious "아니, 오늘 원장한테 잡혀서 못 온대..."
@@ -391,19 +423,45 @@ label scene202:
     hanbyeol idle "얘들아, 여기 노트 한 번 읽어봐."
     yeongwon idle "어디보자."
 
-    "...............는 인간 신체에 변칙적인 변화를 일으키는 종류의 것으로 보임.
-............의 효과가 완벽하게 검증되기 전까지는 발설을 금하며, 정보조작을
-.........히, 교육 기관의 역할이 가장 큼. 정부의 관리 하에 교육과정을 개편
-...........의 존재를 시민의 기억 속에서 완전히 지워야 함. 일반 시민에 대한
-..........억 소거제의 사용은 현재 상부의 결정을 기다리는 중임."
+    show report_frag:
+        zoom 0.4
+        align (0.5, 0.5)
+    with dissolve
 
-    hanseol idle "앞부분이 하나도 안 보이는데? 이거 뭐야?"
+    hanseol idle "앞부분이 하나도 안 보이는데? 다 노래졌고... 이거 뭐야?"
     hanbyeol idle "모르겠어. 냄새도 많이 나지는 않는데... 곰팡이 이런 거 아닌가?"
     hanseol shock "으악?! 내가 곰팡이를 만지고 있었던 거야?!"
+
+    show report_frag:
+        linear 0.3 zoom 0.5
+
     yeongwon serious "아니, 그게 문제가 아니야. 이거 도대체 무슨 소리야?"
     hanbyeol idle "몰라. 그래도 이 실험실...? 같은 곳에 뭔가 단서가 있겠지."
 
-    "(단서 찾기 시작)"
+    hide yeongwon
+    hide hanbyeol
+    hide hanseol
+    hide report_frag
+    with dissolve
+
+    menu clue:
+        "어디를 찾아볼까?"
+
+        "컴퓨터" if "computer" not in seen_clues:
+            ""
+
+            $seen_clues.add("computer")
+            jump clue
+        
+        "책장" if "bookshelf" not in seen_clues:
+
+            $seen_clues.add("bookshelf")
+            jump clue
+
+        "바닥에 흩어진 종이" if "floor" not in seen_clues:
+
+            $seen_clues.add("floor")
+            jump clue
 
 # Intermission. 심해소년
 label scene204:
@@ -501,11 +559,11 @@ label scene205:
 
     show yeongwon:
         linear 0.3 xalign 0.2
-    show hanseol serious at center
+    show hanseol sad at center
     show hanbyeol serious at right
 
-    hanseol serious "좋은 아침이야아..."
-    hanbyeol serious "......"
+    hanseol "좋은 아침이야아..."
+    hanbyeol "......"
 
     "...둘 다 피곤해 죽을 것 같은 표정이다."
 
