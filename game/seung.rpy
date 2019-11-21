@@ -48,10 +48,12 @@ label scene201:
     show hanbyeol idle at center
     show yeongwon idle at right
 
+    window hide
+
     nvle "얼마 뒤, 다시 만나기로 한 날이 되어 한별이, 한설이와 같이 아지트로 향했다."
     nvle "매일같이 비밀 쪽지가 도착했나 살펴봤지만 하늘이가 쓴 쪽지는 찾을 수 없었다."
 
-    nvl clear
+    nvl hide
 
     hanseol idle "오늘 하늘이 오겠지...?"
     yeongwon serious "글쎄... 무슨 일이 생긴 건 아닌지 매일 밤 걱정돼서 잠도 제대로 못 잤어."
@@ -443,25 +445,6 @@ P.S. 아까 얼핏 들었는데, 경비원 아저씨 몇 분이 휴가 갔다가
     hide hanseol
     hide report_frag
     with dissolve
-
-    menu clue:
-        "어디를 찾아볼까?"
-
-        "컴퓨터" if "computer" not in seen_clues:
-            ""
-
-            $seen_clues.add("computer")
-            jump clue
-        
-        "책장" if "bookshelf" not in seen_clues:
-
-            $seen_clues.add("bookshelf")
-            jump clue
-
-        "바닥에 흩어진 종이" if "floor" not in seen_clues:
-
-            $seen_clues.add("floor")
-            jump clue
 
 # Intermission. 심해소년
 label scene204:

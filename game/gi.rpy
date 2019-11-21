@@ -7,13 +7,14 @@ label scene101:
     #1
     #배경글
     scene background black
+    window hide
     nvle "별로 머지 않은 미래."
     nvle "탐욕에 물든 인간들은 지속적으로 자연을 파괴해갔다."
     nvle "결국, 우리가 더 이상 살아갈 수 없을 정도로 오존층이 \n파괴되었고, 인류의 목숨은 경각에 달했다."
     nvle "하지만 소수의 선각자들이 미리 대비해놓은 결과, 인류는 \n안전구역 안에서 목숨을 부지할 수 있었다."
     nvle "이는 안전패널이라는 획기적인 기술 덕분이었다."
     #배경글 끝
-    nvl clear
+    nvl hide
     scene background classday
     show principal happy
     principal "... 이렇게 돔을 자세히 살펴보면, 수많은 투명한 안전패널들로 구성되어 있음을 확인할 수 있어요."
@@ -161,10 +162,10 @@ label scene101:
     nvle "그래도 희망적인 소식이야."
     nvle "특별동에서 아지트까지 갈 수 있는 샛길과 감시가 허술한 때를 알아냈어."
     nvle "곧 다시 볼 수 있을 것 같아."
-    nvl clear
+    nvl hide
     nvle "이번 보름날 밤에 보자."
     #배경글 끝
-    nvl clear
+    nvl hide
     with fade
     scene background dormyeongwon
     show yeongwon idle dark at right
@@ -879,7 +880,7 @@ label scene101:
     nvle "햇빛이 폭풍보다도 따갑다면, 우산을 펼칠 뿐이다."
     nvle "...저항... ...탈출..."
     #배경글 끝
-    nvl clear
+    nvl hide
     with fade
     show yeongwon shock
     with dissolve
