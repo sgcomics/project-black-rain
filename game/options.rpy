@@ -195,3 +195,6 @@ init python:
 ## 다.
 
 # define build.itch_project = "renpytom/test-project"
+
+## Autodimming #################################################################
+define config.speaking_attribute = "speaking"
